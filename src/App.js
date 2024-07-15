@@ -8,7 +8,7 @@ function App() {
 		<div className="App">
 			<Home />
 			{/* <img src="/images/image.png" alt="" /> */}
-			
+			<h3>Shohruh</h3>
 		</div>
 	);
 }
