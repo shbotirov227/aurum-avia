@@ -12,9 +12,9 @@ import FormSection from "../../containers/FormSection/FormSection.jsx";
 import "./Home";
 
 const Home = () => {
-    return (
-        <div className="Home">
-            <Header />
+	return (
+		<div className="Home">
+			<Header />
 			<HeroSection />
 			<Prices />
 			<VisaSupport />
@@ -24,8 +24,8 @@ const Home = () => {
 			<Reservation />
 			<FormSection />
 			<Footer />
-        </div>
-    )
+		</div>
+	)
 }
 
 export default Home;
