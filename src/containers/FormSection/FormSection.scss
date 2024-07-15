@@ -1,0 +1,57 @@
+.FormSection {
+    &-form {
+        margin: 0 auto;
+        width: 100%;
+        padding: 60px 120px;
+        background-color: #f9f9f9;
+        margin-bottom: 100px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    &-map {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 100%;
+    }
+
+    &-title {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+        color: #2a2a2a;
+        font-weight: 700;
+
+        .blueText {
+            color: #22b3c1;
+        }
+    }
+
+    label {
+        font-size: 15px;
+        color: #afafaf;
+    }
+
+    &-input {
+        width: 100%;
+        height: 46px;
+        background-color: transparent;
+        border-radius: 23px;
+        border: 1px solid #e0e0e0;
+        padding: 0px 20px;
+        margin-bottom: 30px;
+        
+        &:focus {
+            border: none;
+            outline: none;
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+            background-color: transparent;
+            padding: 10px 20px;
+        }
+    }
+
+    .btn-default {
+        width: 100%;
+        color: #fff;
+    }
+}

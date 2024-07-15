@@ -1,3 +1,47 @@
 .Footer {
+    background-image: url("../../assets/images/footerBgImg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 80px 0 !important;
+    }
     
+    &-title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    &-text {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #fff;
+    }
+
+    &-bottom {
+        background-color: #22B3C1;
+        padding: 25px 0;
+        border-top: 5px solid #fff;
+    }
+
+    .btn-default {
+        border: 1px solid #fff;
+    }
+
+    &-copyright {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        color: #fff;
+    }
 }

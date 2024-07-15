@@ -27,3 +27,31 @@ body {
     padding: 0 15px;
     box-sizing: border-box;
 }
+
+.mini-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.btn-default {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #22B3C1;
+    padding: 15px 20px;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: all ease 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #1a8690;
+    }
+}

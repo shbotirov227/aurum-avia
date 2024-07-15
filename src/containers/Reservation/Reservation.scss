@@ -1,0 +1,36 @@
+.Reservation {
+    text-align: center;
+    background-image: url("../../assets/images/reservationBgImg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    margin-bottom: 170px;
+
+    &-title {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+        color: #fff;
+        margin: 30px 0 50px 0;
+    }
+
+    &-text {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #fff;
+    }
+
+    &-btn {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        color: #22B3C1;
+        padding: 15px 30px;
+        background-color: #fff;
+        border-radius: 25px;
+    }
+}

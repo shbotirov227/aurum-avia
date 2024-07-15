@@ -1,0 +1,94 @@
+.ExploreCard {
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    max-width: 80%;
+    display: flex;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    // border-bottom: 1px solid #eee;
+
+    img {
+        width: 30%;
+        height: 100%;
+        border-radius: 25px;
+        margin-right: 25px;
+    }
+
+    &-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    &-bottom {
+        text-align: left;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #afafaf;
+    }
+
+    &-title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #2a2a2a;
+    }
+
+    &-author {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        color: #afafaf;
+    }
+
+    &-additional {
+        
+        &-items {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 15px 0px;
+            margin-bottom: 20px;
+        }
+
+        &-item {
+            display: flex;
+            align-items: center;
+        }
+
+
+        svg {
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+        }
+        &-title {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            color: #AFAFAF;
+
+        }
+
+        &-link {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            color: #22B3C1;
+
+            svg {
+                margin-left: 5px;
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+}

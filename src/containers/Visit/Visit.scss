@@ -1,0 +1,15 @@
+.Visit {
+    margin-bottom: 100px !important;
+
+    .MainTitle {
+        &-title {
+            text-align: left;
+        }
+        
+        &-text {
+            width: 40%;
+            text-align: left;
+            margin: 0;
+        }
+    }
+}

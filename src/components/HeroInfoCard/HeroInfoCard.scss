@@ -1,0 +1,46 @@
+.HeroInfoCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 25px 35px;
+    border-radius: 60px;
+    width: 85%;
+    margin: auto;
+    z-index: 2;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+
+    &-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        svg {
+            width: 60px;
+            height: 60px;
+            padding: 15px;
+            border-radius: 50%;
+            border: 1px solid #22B3C1;
+            margin-right: 25px;
+        }
+    }
+
+    &-title {
+        color: #AFAFAF;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    &-value {
+        color: #22B3C1;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

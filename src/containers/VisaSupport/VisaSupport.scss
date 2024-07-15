@@ -1,0 +1,41 @@
+.VisaSupport {
+    border-bottom: 1px solid #eee;
+    
+    .swiper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .swiper-wrapper {
+        // width: 100%;
+        width: 100% !important;
+    }
+    
+    .swiper-slide {
+        // background-position: center;
+        // background-size: cover;
+        width: 25% !important;
+        height: 570px !important;
+        margin-right: 170px !important;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+    }
+
+    .Card {
+
+        img {
+            width: 90%;
+            height: 100%;
+        }
+
+        &-body {
+            // width: 60%;
+            top: -180px;
+            right: -180px;
+        }
+    }
+}
