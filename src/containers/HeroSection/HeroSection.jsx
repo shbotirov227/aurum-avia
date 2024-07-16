@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import { CCarousel, CCarouselCaption, CCarouselItem, CImage } from '@coreui/react';
 import '@coreui/coreui/dist/css/coreui.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -14,6 +15,9 @@ import "./HeroSection.scss";
 
 
 const HeroSection = () => {
+
+	const {t}=useTranslation();
+
 	return (
 		<div className="HeroSection">
 			<div className="HeroSection-inner">
@@ -21,9 +25,9 @@ const HeroSection = () => {
 					<CCarouselItem>
 						<CImage className="d-block w-100" src={BgImage1} alt="slide 1" />
 						<CCarouselCaption className="d-none d-md-block">
-							<h4 className="HeroSection-title">Take a Glimpse Into The Beautiful City Of:</h4>
-							<h3 className="HeroSection-cityName">Istanbul</h3>
-							<a className="btn-default" href="#contact">Go There</a>
+							<h4 className="HeroSection-title">{t("banner1.h2")}</h4>
+							<h3 className="HeroSection-cityName">{t('banner1.h1')}</h3>
+							<a className="btn-default" href="#contact">{t('button.go')}</a>
 						</CCarouselCaption>
 						<HeroInfoCard population="44.48 M"	area="275.400 KM2" price="$946.000" />
 					</CCarouselItem>
@@ -32,9 +36,9 @@ const HeroSection = () => {
 					<CCarouselItem>
 						<CImage className="d-block w-100" src={BgImage2} alt="slide 2" />
 						<CCarouselCaption className="d-none d-md-block">
-							<h4 className="HeroSection-title">Take a Glimpse Into The Beautiful City Of:</h4>
-							<h3 className="HeroSection-cityName">Antalya</h3>
-							<a className="btn-default" href="#contact">Go There</a>
+							<h4 className="HeroSection-title">{t('banner2.h2')}</h4>
+							<h3 className="HeroSection-cityName">{t('banner2.h1')}</h3>
+							<a className="btn-default" href="#contact">{t('button.go')}</a>
 						</CCarouselCaption>
 						<HeroInfoCard population="8.66 M" area="41.290 KM2" price="$1.100.200" />
 					</CCarouselItem>
@@ -42,9 +46,9 @@ const HeroSection = () => {
 					<CCarouselItem>
 						<CImage className="d-block w-100" src={BgImage3} alt="slide 3" />
 						<CCarouselCaption className="d-none d-md-block">
-							<h4 className="HeroSection-title">Take a Glimpse Into The Beautiful City Of:</h4>
-							<h3 className="HeroSection-cityName">Dubai</h3>
-							<a className="btn-default" href="#contact">Go There</a>
+							<h4 className="HeroSection-title">{t('banner3.h2')}</h4>
+							<h3 className="HeroSection-cityName">{t('banner3.h1')}</h3>
+							<a className="btn-default" href="#contact">{t('button.go')}</a>
 						</CCarouselCaption>
 						<HeroInfoCard population="67.41 M" area="551.500 KM2" price="$425.600" />
 					</CCarouselItem>
@@ -52,9 +56,9 @@ const HeroSection = () => {
 					<CCarouselItem>
 						<CImage className="d-block w-100" src={BgImage4} alt="slide 3" />
 						<CCarouselCaption className="d-none d-md-block">
-							<h4 className="HeroSection-title">Take a Glimpse Into The Beautiful City Of:</h4>
-							<h3 className="HeroSection-cityName">Sharm El-Sheikh</h3>
-							<a className="btn-default" href="#contact">Go There</a>
+							<h4 className="HeroSection-title">{t('banner4.h2')}</h4>
+							<h3 className="HeroSection-cityName">{t('banner4.h1')}</h3>
+							<a className="btn-default" href="#contact">{t('button.go')}</a>
 						</CCarouselCaption>
 						<HeroInfoCard population="69.86 M" area="513.120 KM2" price="$165.450" />
 					</CCarouselItem>

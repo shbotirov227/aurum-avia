@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 import MainTitle from "../../components/MainTitle/MainTitle";
 import ImageSlider from "../../components/ImageSlider/ImageSlider";
 import Image1 from "../../assets/images/bgImg1.jpg";
@@ -11,39 +12,41 @@ import "./Locations.scss";
 
 const Locations = () => {
 
+    const { t } = useTranslation();
+
     const data = [
         {
             id: 0,
             img: Image3,
-            title: "Dubai",
+            title: t('banner3.h1'),
             population: "2M"
         },
         
         {
             id: 1,
             img: Image1,
-            title: "Istanbul",
+            title: t('banner1.h1'),
             population: "4.1M"
         },
 
         {
             id: 2,
             img: Image2,
-            title: "Antalya",
+            title: t('banner2.h1'),
             population: "3.5M"
         },
 
         {
             id: 3,
             img: Image4,
-            title: "Sharm El-Sheikh",
+            title: t('banner4.h1'),
             population: "4M"
         },
 
         {
             id: 4,
             img: Image5,
-            title: "USA",
+            title: t('country.usa'),
             population: "3M"
         },
     ];
@@ -51,10 +54,8 @@ const Locations = () => {
     return (
         <div className="Locations container">
             <MainTitle
-                title="Best Locations"
-                text="Discover the best offers in each city,
-                curated just for you.Immerse yourself in a world
-                of savings and indulge in unparalleled experiences."
+                title={t("best.h2")}
+                text={t("best.p")}
             />
 
             <div className="Location-images">

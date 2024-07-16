@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
 import MainTitle from "../../components/MainTitle/MainTitle";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
@@ -17,212 +18,208 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-
 import "./Prices.scss";
 
-const data = [
-    {
-        id: 0,
-        image: CardImg1,
-        cityName: "Istanbul",
-        users: "234",
-        price: "$420",
-        items: [
-            {
-                icon: <CardIcon2 />,
-                text: "5 Days Trip > Hotel Included"
-            },
-
-            {
-                icon: <CardIcon3 />,
-                text: "Airplane Bill Included"
-            },
-
-            {
-                icon: <CardIcon4 />,
-                text: "Daily Places Visit"
-            },
-        ]
-    },
-
-    {
-        id: 1,
-        image: CardImg2,
-        cityName: "Dubai",
-        users: "300",
-        price: "$700",
-        items: [
-            {
-                icon: <CardIcon2 />,
-                text: "5 Days Trip > Hotel Included"
-            },
-
-            {
-                icon: <CardIcon3 />,
-                text: "Airplane Bill Included"
-            },
-
-            {
-                icon: <CardIcon4 />,
-                text: "Daily Places Visit"
-            }
-        ]
-    },
-
-    {
-        id: 2,
-        image: CardImg3,
-        cityName: "Antalya",
-        users: "500",
-        price: "$999",
-        items: [
-            {
-                icon: <CardIcon2 />,
-                text: "5 Days Trip > Hotel Included"
-            },
-
-            {
-                icon: <CardIcon3 />,
-                text: "Airplane Bill Included"
-            },
-
-            {
-                icon: <CardIcon4 />,
-                text: "Daily Places Visit"
-            }
-        ]
-    },
-    {
-        id: 3,
-        image: CardImg4,
-        cityName: "Sharm El-Sheikh",
-        users: "200",
-        price: "$999",
-        items: [
-            {
-                icon: <CardIcon2 />,
-                text: "5 Days Trip > Hotel Included"
-            },
-
-            {
-                icon: <CardIcon3 />,
-                text: "Airplane Bill Included"
-            },
-
-            {
-                icon: <CardIcon4 />,
-                text: "Daily Places Visit"
-            }
-        ]
-    },
-
-    {
-        id: 4,
-        image: CardImg5,
-        cityName: "USA",
-        users: "400",
-        items: [
-            {
-                icon: <CardIcon2 />,
-                text: "5 Days Trip > Hotel Included"
-            },
-
-            {
-                icon: <CardIcon3 />,
-                text: "Airplane Bill Included"
-            },
-
-            {
-                icon: <CardIcon4 />,
-                text: "Daily Places Visit"
-            }
-        ]
-    },
-
-    {
-        id: 5,
-        image: CardImg6,
-        cityName: "England",
-        users: "234",
-        items: [
-            {
-                icon: <CardIcon2 />,
-                text: "5 Days Trip > Hotel Included"
-            },
-
-            {
-                icon: <CardIcon3 />,
-                text: "Airplane Bill Included"
-            },
-
-            {
-                icon: <CardIcon4 />,
-                text: "Daily Places Visit"
-            }
-        ]
-    },
-
-    {
-        id: 6,
-        image: CardImg7,
-        cityName: "Canada",
-        users: "345",
-        items: [
-            {
-                icon: <CardIcon2 />,
-                text: "5 Days Trip > Hotel Included"
-            },
-
-            {
-                icon: <CardIcon3 />,
-                text: "Airplane Bill Included"
-            },
-
-            {
-                icon: <CardIcon4 />,
-                text: "Daily Places Visit"
-            }
-        ]
-    },
-
-    {
-        id: 7,
-        image: CardImg8,
-        cityName: "European Union",
-        users: "345",
-        items: [
-            {
-                icon: <CardIcon2 />,
-                text: "5 Days Trip > Hotel Included"
-            },
-
-            {
-                icon: <CardIcon3 />,
-                text: "Airplane Bill Included"
-            },
-
-            {
-                icon: <CardIcon4 />,
-                text: "Daily Places Visit"
-            }
-        ]
-    },
-];
 
 const Prices = () => {
+    const {t}=useTranslation();
+
+    const data = [
+        {
+            id: 0,
+            image: CardImg1,
+            cityName: t("banner1.h1"),
+            users: "234",
+            price: "$420",
+            items: [
+                {
+                    icon: <CardIcon2 />,
+                    text: t("weeklyCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon3 />,
+                    text: t("weeklyCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon4 />,
+                    text: t("weeklyCard.p3")
+                },
+            ]
+        },
+    
+        {
+            id: 1,
+            image: CardImg2,
+            cityName: t("banner2.h1"),
+            users: "300",
+            price: "$700",
+            items: [
+                {
+                    icon: <CardIcon2 />,
+                    text: t("weeklyCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon3 />,
+                    text: t("weeklyCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon4 />,
+                    text: t("weeklyCard.p3")
+                },
+            ]
+        },
+    
+        {
+            id: 2,
+            image: CardImg3,
+            cityName: t("banner3.h1"),
+            users: "500",
+            price: "$999",
+            items: [
+                {
+                    icon: <CardIcon2 />,
+                    text: t("weeklyCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon3 />,
+                    text: t("weeklyCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon4 />,
+                    text: t("weeklyCard.p3")
+                },
+            ]
+        },
+        {
+            id: 3,
+            image: CardImg4,
+            cityName: t("banner4.h1"),
+            users: "200",
+            price: "$999",
+            items: [
+                {
+                    icon: <CardIcon2 />,
+                    text: t("weeklyCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon3 />,
+                    text: t("weeklyCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon4 />,
+                    text: t("weeklyCard.p3")
+                },
+            ]
+        },
+    
+        {
+            id: 4,
+            image: CardImg5,
+            cityName: t("country.usa"),
+            users: "400",
+            items: [
+                {
+                    icon: <CardIcon2 />,
+                    text: t("weeklyCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon3 />,
+                    text: t("weeklyCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon4 />,
+                    text: t("weeklyCard.p3")
+                },
+            ]
+        },
+    
+        {
+            id: 5,
+            image: CardImg6,
+            cityName: t("country.england"),
+            users: "234",
+            items: [
+                {
+                    icon: <CardIcon2 />,
+                    text: t("weeklyCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon3 />,
+                    text: t("weeklyCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon4 />,
+                    text: t("weeklyCard.p3")
+                },
+            ]
+        },
+    
+        {
+            id: 6,
+            image: CardImg7,
+            cityName: t("country.canada"),
+            users: "345",
+            items: [
+                {
+                    icon: <CardIcon2 />,
+                    text: t("weeklyCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon3 />,
+                    text: t("weeklyCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon4 />,
+                    text: t("weeklyCard.p3")
+                },
+            ]
+        },
+    
+        {
+            id: 7,
+            image: CardImg8,
+            cityName: t("country.europe"),
+            users: "345",
+            items: [
+                {
+                    icon: <CardIcon2 />,
+                    text: t("weeklyCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon3 />,
+                    text: t("weeklyCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon4 />,
+                    text: t("weeklyCard.p3")
+                },
+            ]
+        },
+    ];
+
     return (
         <div className="Prices">
             <MainTitle
-                title="Best Weekly Offers In Each City"
-                text="Discover the best weekly offers in each city, curated just for you.
-                Immerse yourself in a world of savings and indulge in unparalleled experiences."
+                title={t("weekly.h2")}
+                text={t("weekly.p")}
             />
 
-            {/* <div className="Prices-cards">
-
-            </div> */}
-
-            
             <Swiper
                 slidesPerView={3}
                 spaceBetween={100}

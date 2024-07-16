@@ -1,9 +1,13 @@
 import React from 'react';
 import { ArrowIcon, ExploreCardIcon1, ExploreCardIcon2, ExploreCardIcon3 } from "../../assets/icons";
+import { useTranslation } from "react-i18next";
 
 import "./ExploreCard.scss";
 
 const ExploreCard = ({ image, title, author, text, peoples, area, price }) => {
+    
+    const { t } = useTranslation();
+
     return (
         <div className="ExploreCard">
             <img src={image} alt="" />
@@ -15,7 +19,7 @@ const ExploreCard = ({ image, title, author, text, peoples, area, price }) => {
                         <span className="ExploreCard-author">{author}</span>
                     </div>
 
-                    <a href="#contact" className="btn-default">Explore More</a>
+                    <a href="#contact" className="btn-default">{t("button.explore")}</a>
                 </div>
 
                 <p className="ExploreCard-bottom">{text}</p>
@@ -26,12 +30,12 @@ const ExploreCard = ({ image, title, author, text, peoples, area, price }) => {
                             <ul className="ExploreCard-additional-items">
                                 <li className="Explore-additional-item">
                                     <ExploreCardIcon1 />
-                                    <span className="ExploreCard-additional-title">{peoples} Mil People</span>
+                                    <span className="ExploreCard-additional-title">{peoples} {t("visitCard.mil")} {t("checks.person")}</span>
                                 </li>
 
                                 <li className="Explore-additional-item">
                                     <ExploreCardIcon2 />
-                                    <span className="ExploreCard-additional-title">{area} km2</span>
+                                    <span className="ExploreCard-additional-title">{area} {t("visitCard.km")}</span>
                                 </li>
 
                                 <li className="Explore-additional-item">
@@ -40,7 +44,7 @@ const ExploreCard = ({ image, title, author, text, peoples, area, price }) => {
                                 </li>
                             </ul>
 
-                            <a href="#directions" className="ExploreCard-additional-link">Need Directions ? <ArrowIcon /></a>
+                            <a href="#directions" className="ExploreCard-additional-link">{t("button.direction")} <ArrowIcon /></a>
                         </div>
                         : undefined
                 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 import MainTitle from "../../components/MainTitle/MainTitle";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
@@ -17,158 +18,160 @@ import 'swiper/css/navigation';
 
 import "./VisaSupport.scss";
 
-const data = [
-    {
-        id: 0,
-        image: CardImg9,
-        cityName: "Hong Kong",
-        users: "234",
-        bottomTitle: "Benefits of our Visa Support service:",
-        items: [
-            {
-                icon: <CardIcon8 />,
-                text: "Best Prices"
-            },
-
-            {
-                icon: <CardIcon9 />,
-                text: "Short Processing Time"
-            },
-
-            {
-                icon: <CardIcon10 />,
-                text: "Trustworthy Assistance"
-            },
-        ]
-    },
-
-    {
-        id: 1,
-        image: CardImg10,
-        cityName: "India",
-        users: "300",
-        bottomTitle: "Benefits of our Visa Support service:",
-        items: [
-            {
-                icon: <CardIcon8 />,
-                text: "Best Prices"
-            },
-
-            {
-                icon: <CardIcon9 />,
-                text: "Short Processing Time"
-            },
-
-            {
-                icon: <CardIcon10 />,
-                text: "Trustworthy Assistance"
-            },
-        ]
-    },
-
-    {
-        id: 2,
-        image: CardImg11,
-        cityName: "Japan",
-        users: "234",
-        bottomTitle: "Benefits of our Visa Support service:",
-        items: [
-            {
-                icon: <CardIcon8 />,
-                text: "Best Prices"
-            },
-
-            {
-                icon: <CardIcon9 />,
-                text: "Short Processing Time"
-            },
-
-            {
-                icon: <CardIcon10 />,
-                text: "Trustworthy Assistance"
-            },
-        ]
-    },
-    {
-        id: 3,
-        image: CardImg12,
-        cityName: "Saudi Arabia",
-        users: "200",
-        bottomTitle: "Benefits of our Visa Support service:",
-        items: [
-            {
-                icon: <CardIcon8 />,
-                text: "Best Prices"
-            },
-
-            {
-                icon: <CardIcon9 />,
-                text: "Short Processing Time"
-            },
-
-            {
-                icon: <CardIcon10 />,
-                text: "Trustworthy Assistance"
-            },
-        ]
-    },
-
-    {
-        id: 4,
-        image: CardImg13,
-        cityName: "Oman",
-        users: "400",
-        bottomTitle: "Benefits of our Visa Support service:",
-        items: [
-            {
-                icon: <CardIcon8 />,
-                text: "Best Prices"
-            },
-
-            {
-                icon: <CardIcon9 />,
-                text: "Short Processing Time"
-            },
-
-            {
-                icon: <CardIcon10 />,
-                text: "Trustworthy Assistance"
-            },
-        ]
-    },
-
-    {
-        id: 5,
-        image: CardImg14,
-        cityName: "China",
-        users: "234",
-        bottomTitle: "Benefits of our Visa Support service:",
-        items: [
-            {
-                icon: <CardIcon8 />,
-                text: "Best Prices"
-            },
-
-            {
-                icon: <CardIcon9 />,
-                text: "Short Processing Time"
-            },
-
-            {
-                icon: <CardIcon10 />,
-                text: "Trustworthy Assistance"
-            },
-        ]
-    }
-];
-
 const VisaSupport = () => {
+
+    const { t } = useTranslation();
+    
+    const data = [
+        {
+            id: 0,
+            image: CardImg9,
+            cityName: t("country.hong"),
+            users: "234",
+            bottomTitle: t("visaCard.h5"),
+            items: [
+                {
+                    icon: <CardIcon8 />,
+                    text: t("visaCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon9 />,
+                    text: t("visaCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon10 />,
+                    text: t("visaCard.p3")
+                },
+            ]
+        },
+    
+        {
+            id: 1,
+            image: CardImg10,
+            cityName: t("country.india"),
+            users: "300",
+            bottomTitle: t("visaCard.h5"),
+            items: [
+                {
+                    icon: <CardIcon8 />,
+                    text: t("visaCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon9 />,
+                    text: t("visaCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon10 />,
+                    text: t("visaCard.p3")
+                },
+            ]
+        },
+    
+        {
+            id: 2,
+            image: CardImg11,
+            cityName: t("country.japan"),
+            users: "234",
+            bottomTitle: t("visaCard.h5"),
+            items: [
+                {
+                    icon: <CardIcon8 />,
+                    text: t("visaCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon9 />,
+                    text: t("visaCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon10 />,
+                    text: t("visaCard.p3")
+                },
+            ]
+        },
+        {
+            id: 3,
+            image: CardImg12,
+            cityName: t("country.saudia"),
+            users: "200",
+            bottomTitle: t("visaCard.h5"),
+            items: [
+                {
+                    icon: <CardIcon8 />,
+                    text: t("visaCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon9 />,
+                    text: t("visaCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon10 />,
+                    text: t("visaCard.p3")
+                },
+            ]
+        },
+    
+        {
+            id: 4,
+            image: CardImg13,
+            cityName: t("country.oman"),
+            users: "400",
+            bottomTitle: t("visaCard.h5"),
+            items: [
+                {
+                    icon: <CardIcon8 />,
+                    text: t("visaCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon9 />,
+                    text: t("visaCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon10 />,
+                    text: t("visaCard.p3")
+                },
+            ]
+        },
+    
+        {
+            id: 5,
+            image: CardImg14,
+            cityName: t("country.china"),
+            users: "234",
+            bottomTitle: t("visaCard.h5"),
+            items: [
+                {
+                    icon: <CardIcon8 />,
+                    text: t("visaCard.p1")
+                },
+    
+                {
+                    icon: <CardIcon9 />,
+                    text: t("visaCard.p2")
+                },
+    
+                {
+                    icon: <CardIcon10 />,
+                    text: t("visaCard.p3")
+                },
+            ]
+        }
+    ];
+
     return (
         <div className="VisaSupport">
             <MainTitle
-                title="Visa support"
-                text="Experience stress-free travel with our expert visa support. 
-                We provide seamless assistance and comprehensive guidance, ensuring a smooth journey."
+                title={t("visa.h2")}
+                text={t("visa.p")}
             />
 
             <Swiper
