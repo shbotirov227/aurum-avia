@@ -1,0 +1,22 @@
+.FormCard {
+    display: flex;
+    align-items: center;
+    // border: 1px solid gold;
+    margin-top: 15px;
+
+    &-title {
+        font-size: 15px;
+        color: #135D66;
+        margin-left: 15px;
+    }
+
+    &-text {
+        color: #135D66;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    svg {
+        width: 35px;
+    }
+}

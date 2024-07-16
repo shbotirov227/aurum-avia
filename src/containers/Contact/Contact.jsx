@@ -8,32 +8,34 @@ const data = [
     {
         id: 0,
         icon: <PhoneIcon />,
-        title: "Make a Phone Call",
-        text: "+998 99 299 99 96",
-        url: "tel:+998 99 299 99 96"
+        title: "Telefon Raqam",
+        text: "+998 90 987 09 87",
+        url: "tel:+998 90 987 09 87",
+        number: "+998 90 986 09 86",
+        numberUrl: "tel:+998 90 986 09 86"
     },
 
     {
         id: 1,
         icon: <MailIcon />,
-        title: "Contact Us via Email",
-        text: "zamonbiznestour@mail.ru",
-        url: "mailto:zamonbiznestour@mail.ru"
+        title: "Email",
+        text: "aurum_avia@gmail.com",
+        url: "mailto:aurum_avia@gmail.com"
     },
 
     {
         id: 2,
         icon: <LocationIcon />,
-        title: "Visit Our Offices",
-        text: "15/25, Chilanzar - 9, Tashkent city",
-        url: "https://yandex.uz/maps/-/CDfz7BJf"
+        title: "Manzil",
+        text: "Toshkent shahar, Uchtepa tumani, 14-mavze, 1-uy",
+        url: "https://yandex.uz/maps/-/CDSJFM8C"
     },
 ]
 
 const Contact = () => {
     return (
         <div className="Contact container" id="directions">
-            {data.map(el => <ContactCard key={el.id} icon={el.icon} title={el.title} text={el.text} url={el.url} />)}
+            {data.map(el => <ContactCard key={el.id} icon={el.icon} title={el.title} text={el.text} url={el.url} number={el.number} numberUrl={el.numberUrl} />)}
         </div>
     )
 }
