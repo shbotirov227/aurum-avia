@@ -45,7 +45,7 @@ const data = [
         title: "Sharm El-Sheikh",
         author: "Egypt",
         peoples: 67.41,
-        area: 551.500 ,
+        area: 551.500,
         price: 425.600,
         text: `Sharm El Sheikh is the center of tourism action in Sinai Peninsula and it has
         the world top diving sites. Specially the underwater wonders of Ras Mohammed national
@@ -60,7 +60,7 @@ const data = [
         title: "Istanbul",
         author: "Turkey",
         peoples: 67.41,
-        area: 551.500 ,
+        area: 551.500,
         price: 425.600,
         text: `Istanbul is the most populous city in Turkey and its cultural,
         economic and historic center.It is located in north-western part of Turkey,
@@ -73,9 +73,7 @@ const Visit = () => {
     return (
         <div className="Visit container" id="tours">
             <MainTitle
-                title="Visit One Of Our Countries Now"
-                text="Discover the best offers in each city, curated just for you. Immerse
-                yourself in a world of savings and indulge in unparalleled experiences."
+                title="Eng mashhur aviareyslar"
             />
 
             {data.map((el) => (
