@@ -18,6 +18,27 @@ a {
 
 body {
     font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.btn-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 3;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: #3B667D;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+    &:active {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px inset, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px 3px 0px inset;  
+    }
+    svg {
+        font-size: 25px;
+        color: #fff;
+    }
 }
 
 .container {
@@ -42,7 +63,8 @@ body {
     line-height: 21px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
-    background-color: #22B3C1;
+    background-color: #3B667D;
+    // background-color: #41718B;
     padding: 15px 20px;
     border-radius: 25px;
     text-align: center;
@@ -52,6 +74,6 @@ body {
     cursor: pointer;
 
     &:hover {
-        background-color: #1a8690;
+        background-color: #5992B1;
     }
 }

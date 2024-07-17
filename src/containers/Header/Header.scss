@@ -1,9 +1,14 @@
 .Header {
-    background-color: #22b3c1;
+    background-color: #3B667D;
     box-sizing: content-box;
     position: fixed;
     width: 100%;
     z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    .logo {
+        width: 120px;
+    }
 
     &-inner {
         display: flex;

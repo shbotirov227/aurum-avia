@@ -1,12 +1,15 @@
 .FormSection {
     width: 100%;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px;
     background-color: #135D66;
-
+    
+    &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0;
+        height: 600px;
+    }
+    
     &-map {
         height: 475px;
         border-radius: 20px;
@@ -68,7 +71,7 @@
     }
 
     &-callChild {
-        width: 45%;
+        width: 48%;
         height: 150px;
         display: flex;
         flex-direction: column;

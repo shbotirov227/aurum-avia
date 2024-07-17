@@ -130,7 +130,8 @@
         "phone":"Make a Phone Call",
         "email":"Contact Us via Email",
         "location":"Visit Our Offices",
-        "place":"15/25, Chilanzar - 9, Tashkent city"
+        "place":"Home 1, Uchtepa - 14, Tashkent city",
+        "loc": ""
     },
     "form":{
         "h2":{
