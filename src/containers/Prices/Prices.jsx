@@ -19,10 +19,11 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import "./Prices.scss";
+import "./PricesMedia.scss";
 
 
 const Prices = () => {
-    const {t}=useTranslation();
+    const { t } = useTranslation();
 
     const data = [
         {
@@ -36,19 +37,19 @@ const Prices = () => {
                     icon: <CardIcon2 />,
                     text: t("weeklyCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon3 />,
                     text: t("weeklyCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon4 />,
                     text: t("weeklyCard.p3")
                 },
             ]
         },
-    
+
         {
             id: 1,
             image: CardImg2,
@@ -60,19 +61,19 @@ const Prices = () => {
                     icon: <CardIcon2 />,
                     text: t("weeklyCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon3 />,
                     text: t("weeklyCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon4 />,
                     text: t("weeklyCard.p3")
                 },
             ]
         },
-    
+
         {
             id: 2,
             image: CardImg3,
@@ -84,12 +85,12 @@ const Prices = () => {
                     icon: <CardIcon2 />,
                     text: t("weeklyCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon3 />,
                     text: t("weeklyCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon4 />,
                     text: t("weeklyCard.p3")
@@ -107,19 +108,19 @@ const Prices = () => {
                     icon: <CardIcon2 />,
                     text: t("weeklyCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon3 />,
                     text: t("weeklyCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon4 />,
                     text: t("weeklyCard.p3")
                 },
             ]
         },
-    
+
         {
             id: 4,
             image: CardImg5,
@@ -130,19 +131,19 @@ const Prices = () => {
                     icon: <CardIcon2 />,
                     text: t("weeklyCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon3 />,
                     text: t("weeklyCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon4 />,
                     text: t("weeklyCard.p3")
                 },
             ]
         },
-    
+
         {
             id: 5,
             image: CardImg6,
@@ -153,19 +154,19 @@ const Prices = () => {
                     icon: <CardIcon2 />,
                     text: t("weeklyCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon3 />,
                     text: t("weeklyCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon4 />,
                     text: t("weeklyCard.p3")
                 },
             ]
         },
-    
+
         {
             id: 6,
             image: CardImg7,
@@ -176,19 +177,19 @@ const Prices = () => {
                     icon: <CardIcon2 />,
                     text: t("weeklyCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon3 />,
                     text: t("weeklyCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon4 />,
                     text: t("weeklyCard.p3")
                 },
             ]
         },
-    
+
         {
             id: 7,
             image: CardImg8,
@@ -199,12 +200,12 @@ const Prices = () => {
                     icon: <CardIcon2 />,
                     text: t("weeklyCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon3 />,
                     text: t("weeklyCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon4 />,
                     text: t("weeklyCard.p3")
@@ -261,7 +262,47 @@ const Prices = () => {
                     ))
                 }
             </Swiper>
-
+            <Swiper
+                slidesPerView={1}
+                spaceBetween={100}
+                loop={true}
+                autoplay={{
+                    delay: 2300,
+                    pauseOnMouseEnter: true,
+                }}
+                // navigation={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                    },
+                    1024: {
+                        slidesPerView: 5,
+                        spaceBetween: 50,
+                    },
+                }}
+                modules={[Autoplay, Pagination, Navigation]}
+                className="mySwiper"
+            >
+                {
+                    data.map(el => (
+                        <SwiperSlide key={el.id}>
+                            <Card
+                                image={el.image}
+                                icon={el.icon}
+                                price={el.price}
+                                cityName={el.cityName}
+                                users={el.users}
+                                items={[...el.items]}
+                            />
+                        </SwiperSlide>
+                    ))
+                }
+            </Swiper>
         </div>
     )
 }

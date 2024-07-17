@@ -1,0 +1,13 @@
+@media (max-width:440px) {
+    .MainTitle {
+        width: 100%;
+
+        &-title {
+            font-size: 28px;
+        }
+
+        &-text {
+            width: 95%;
+        }
+    }
+}

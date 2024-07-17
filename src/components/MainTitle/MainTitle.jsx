@@ -1,6 +1,7 @@
 import React from 'react';
 
 import "./MainTitle.scss";
+import "./MainTitleMedia.scss";
 
 const MainTitle = ({ title, text }) => {
     return (

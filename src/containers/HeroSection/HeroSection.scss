@@ -24,8 +24,9 @@
         text-align: center;
         color: #FFFFFF;
         padding-top: 150px;
+        // border: 1px solid gold;
     }
-    
+
     &-cityName {
         font-weight: 700;
         font-size: 50px;
@@ -33,6 +34,7 @@
         text-align: center;
         color: #FFFFFF;
         margin: 30px 0;
+        // border: 1px solid gold;
     }
 
     .carousel {
@@ -42,12 +44,13 @@
         width: 100%;
 
         $carousel-transition-duration: 2s !default;
-        
-            .carousel-control-prev, .carousel-control-next {
-                display: none;
-            }
-        
-        
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            display: none;
+        }
+
+
         &-item {
             // margin: auto;
 
@@ -63,7 +66,7 @@
             // right: 15%;
             top: 80px;
             // left: 15%;
-            
+
             // height: 100vh;
             // object-fit: cover;
             // padding-top: 1.25rem;
@@ -73,3 +76,4 @@
         }
     }
 }
+

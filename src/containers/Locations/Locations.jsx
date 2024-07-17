@@ -21,7 +21,7 @@ const Locations = () => {
             title: t('banner3.h1'),
             population: "2M"
         },
-        
+
         {
             id: 1,
             img: Image1,
@@ -50,7 +50,7 @@ const Locations = () => {
             population: "3M"
         },
     ];
-    
+
     return (
         <div className="Locations container">
             <MainTitle

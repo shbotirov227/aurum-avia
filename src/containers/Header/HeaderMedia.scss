@@ -1,0 +1,21 @@
+@media (max-width: 440px) {
+    .Header {
+        width: 100%;
+
+        &-inner {
+
+            img {
+                margin-left: 20px !important;
+            }
+        }
+
+        &-links {
+            display: none;
+        }
+
+        &-langs {
+            display: none;
+        }
+    }
+
+}

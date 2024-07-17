@@ -1,0 +1,34 @@
+@media screen and (max-width: 440px) {
+    .HeroInfoCard {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 23px;
+        padding: 15px 25px;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            justify-content: center !important;
+            margin-top: 10px;
+
+            svg {
+                width: 40px;
+                height: 40px;
+                padding: 7px;
+            }
+        }
+
+        &-title {
+            font-size: 13px;
+        }
+
+        &-value {
+            color: #22B3C1;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 28px;
+        }
+    }
+}

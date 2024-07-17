@@ -2,7 +2,7 @@
 import "./FormSection.scss";
 import { InstaIcon, LocationIcon2, MailIcon, PhoneIcon, TelegramIcon2 } from '../../assets/icons';
 import FormCard from '../../components/FormCard/FormCard';
-import ContactCard from "../../components/ContactCard/ContactCard";
+// import ContactCard from "../../components/ContactCard/ContactCard";
 
 const data = [
     {
@@ -23,7 +23,7 @@ const data = [
         id: 2,
         icon: <InstaIcon />,
         text: "aurum_avia",
-        url: "https://yandex.uz/maps/-/CDSJFM8C"
+        url: "https://www.instagram.com/aurum_avia/?utm_source=ig_web_button_share_sheet"
     },
 ]
 
@@ -65,7 +65,7 @@ const FormSection = () => {
 
 
 
-            <iframe id="directions" className="FormSection-map" title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5425.907410211136!2d69.199668!3d41.289032!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae89a274fdb9b7%3A0x2b8bc58608ca7fb2!2sChilanzar-25%2C%20100152%2C%20Tashkent%2C%20Tashkent%20Region%2C%20Uzbekistan!5e1!3m2!1sen!2sus!4v1717765098456!5m2!1sen!2sus" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe id="directions" className="FormSection-map" title="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d23982.003115599753!2d69.15900491721803!3d41.29253665872771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sToshkent%20shahar%2C%20Uchtepa%20tumani%2C%2014-mavze%2C%201-uy!5e0!3m2!1sru!2s!4v1721202334477!5m2!1sru!2s" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
     )
 }

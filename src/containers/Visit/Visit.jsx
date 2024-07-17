@@ -12,7 +12,7 @@ import "./Visit.scss";
 const Visit = () => {
 
     const { t } = useTranslation()
-    
+
     const data = [
         {
             id: 0,
@@ -24,7 +24,7 @@ const Visit = () => {
             price: 1.125000,
             text: t("visitCard.1.parag"),
         },
-    
+
         {
             id: 1,
             image: VisitCardImg2,
@@ -35,25 +35,25 @@ const Visit = () => {
             price: 946.000,
             text: t("visitCard.1.parag"),
         },
-    
+
         {
             id: 2,
             image: VisitCardImg3,
             title: t("banner4.h1"),
             author: t("visitCard.1.subtitle"),
             peoples: 67.41,
-            area: 551.500 ,
+            area: 551.500,
             price: 425.600,
             text: t("visitCard.1.parag"),
         },
-    
+
         {
             id: 3,
             image: VisitCardImg4,
             title: t("banner1.h1"),
             author: t("visitCard.1.subtitle"),
             peoples: 67.41,
-            area: 551.500 ,
+            area: 551.500,
             price: 425.600,
             text: t("visitCard.1.parag"),
         },

@@ -12,14 +12,18 @@
     .swiper {
         width: 100%;
         height: 100%;
+    }
 
+    .swiper:nth-child(3) {
+        border: 1px solid red;
+        // display: none !important;
     }
 
     .swiper-wrapper {
         // width: 100%;
         width: 100% !important;
     }
-    
+
     .swiper-slide {
         // background-position: center;
         // background-size: cover;
@@ -27,7 +31,7 @@
         height: 570px !important;
         margin-right: 170px !important;
     }
-    
+
     .swiper-slide img {
         // display: block;
         // width: 100%;
