@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import "./ExploreCard.scss";
 
 const ExploreCard = ({ image, title, author, text, peoples, area, price }) => {
-    
+
     const { t } = useTranslation();
 
     return (

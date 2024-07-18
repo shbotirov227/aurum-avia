@@ -3,10 +3,11 @@ import { useTranslation } from 'react-i18next';
 import { UserIcon, AreaIcon, HomeIcon } from "../../assets/icons";
 
 import "./HeroInfoCard.scss";
+import "./HeroInfoCardMedia.scss";
 
 const HeroInfoCard = ({ title, population, area, price }) => {
 
-    const {t}=useTranslation();
+    const { t } = useTranslation();
 
     return (
         <div className="HeroInfoCard">

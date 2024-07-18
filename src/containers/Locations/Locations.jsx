@@ -21,7 +21,7 @@ const Locations = () => {
             title: t('banner3.h1'),
             population: `${t('banner1.population')} 2 ${t('visitCard.mil')}`
         },
-        
+
         {
             id: 1,
             img: Image1,
@@ -50,7 +50,7 @@ const Locations = () => {
             population: `${t('banner1.population')} 3 ${t('visitCard.mil')}`
         },
     ];
-    
+
     return (
         <div className="Locations container">
             <MainTitle

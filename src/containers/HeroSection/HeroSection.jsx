@@ -11,27 +11,28 @@ import BgImage3 from "../../assets/images/bgImg3.jpg";
 import BgImage4 from "../../assets/images/bgImg4.jpg";
 
 import "./HeroSection.scss";
+import "./HeroSectionMedia.scss";
 
 
 
 const HeroSection = () => {
 
-	const {t}=useTranslation();
+	const { t } = useTranslation();
 
 	return (
 		<div className="HeroSection">
 			<div className="HeroSection-inner">
 				<CCarousel controls indicators pause={false} interval={1000} transition="crossfade">
-					<CCarouselItem>
+					<CCarouselItem className='Carousel'>
 						<CImage className="d-block w-100" src={BgImage1} alt="slide 1" />
 						<CCarouselCaption className="d-none d-md-block">
 							<h4 className="HeroSection-title">{t("banner1.h2")}</h4>
 							<h3 className="HeroSection-cityName">{t('banner1.h1')}</h3>
 							<a className="btn-default" href="#contact">{t('button.go')}</a>
 						</CCarouselCaption>
-						<HeroInfoCard population="44.48 M"	area="275.400 KM2" price="$946.000" />
+						<HeroInfoCard population="44.48 M" area="275.400 KM2" price="$946.000" />
 					</CCarouselItem>
-					
+
 
 					<CCarouselItem>
 						<CImage className="d-block w-100" src={BgImage2} alt="slide 2" />
@@ -62,7 +63,7 @@ const HeroSection = () => {
 						</CCarouselCaption>
 						<HeroInfoCard population="69.86 M" area="513.120 KM2" price="$165.450" />
 					</CCarouselItem>
-					
+
 				</CCarousel>
 				{/* <HeroInfoCard /> */}
 			</div>
