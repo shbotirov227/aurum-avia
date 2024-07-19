@@ -47,11 +47,47 @@
 
 @media (max-width:500px) {
     .VisaSupport {
-        border: 1px solid red;
+        width: 100%;
+        // border: 1px solid rgb(0, 204, 255);
+
+        .Card {
+            width: 300px !important;
+            // height: 300px;
+            border: 1px solid red;
+
+            img {
+                width: 60%;
+                // height: 300px;
+                border: 1px solid blue;
+            }
+
+            &-body {
+                position: relative !important;
+                display: inline-block;
+                border-radius: 20px;
+                box-shadow: 5px 10px 25px 0px rgba(0, 0, 0, 0.45);
+                background-color: #fff;
+                padding: 25px 20px;
+                z-index: 2;
+
+                width: 80%;
+                top: -150px;
+                right: -130px;
+                border: 1px solid red;
+            }
+        }
     }
 
-    .swiper:nth-child(3) {
-        display: block !important;
-        border: 1px solid red;
+
+    .swiper {
+        width: 100%;
+        border: 1px solid gold;
+        display: none;
+    }
+
+    .swiper:nth-child(2) {
+        display: block;
+        border: 1px solid rgb(47, 255, 0);
+        // margin-top: 300px;
     }
 }
