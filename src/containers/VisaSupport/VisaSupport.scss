@@ -1,6 +1,6 @@
 .VisaSupport {
     border-bottom: 1px solid #eee;
-    
+
     .swiper {
         width: 100%;
         height: 100%;
@@ -11,7 +11,12 @@
         // width: 100%;
         width: 100% !important;
     }
-    
+
+    .swiper:nth-child(3) {
+        display: none !important;
+        // border: 1px solid red;
+    }
+
     .swiper-slide {
         // background-position: center;
         // background-size: cover;
@@ -19,7 +24,7 @@
         height: 570px !important;
         margin-right: 170px !important;
     }
-    
+
     .swiper-slide img {
         display: block;
         width: 100%;
@@ -37,5 +42,16 @@
             top: -180px;
             right: -180px;
         }
+    }
+}
+
+@media (max-width:500px) {
+    .VisaSupport {
+        border: 1px solid red;
+    }
+
+    .swiper:nth-child(3) {
+        display: block !important;
+        border: 1px solid red;
     }
 }

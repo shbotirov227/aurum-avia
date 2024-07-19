@@ -51,14 +51,14 @@ const FormSection = () => {
 
                         <PhoneIcon />
                         <h3 className="FormSection-numberName">Telefon Raqam</h3>
-                        <a className="FormSection-number" href="">+99890 987-0-987</a>
-                        <a className="FormSection-number" href="">+99890 986-0-986</a>
+                        <a className="FormSection-number" href="+99890 987-0-987">+99890 987-0-987</a>
+                        <a className="FormSection-number" href="+99890 986-0-986">+99890 986-0-986</a>
 
                     </div>
                     <div className="FormSection-callChild">
                         <MailIcon />
                         <h3 className="FormSection-numberName">Telefon Raqam</h3>
-                        <a className="FormSection-number" href="">aurum_avia@gmail.com</a>
+                        <a className="FormSection-number" href="aurum_avia@gmail.com">aurum_avia@gmail.com</a>
                     </div>
                 </div>
             </div>
