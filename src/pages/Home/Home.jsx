@@ -38,7 +38,6 @@ const Home = () => {
 		<div className="Home">
 			<Header />
 			<HeroSection />
-			
 			<Prices />
 			<VisaSupport />
 			<Explore />

@@ -22,7 +22,7 @@ const HeroSection = () => {
 	return (
 		<div className="HeroSection">
 			<div className="HeroSection-inner">
-				<CCarousel controls indicators pause={false} interval={1000} transition="crossfade">
+				<CCarousel controls indicators pause={false} interval={4000} transition="crossfade">
 					<CCarouselItem className='Carousel'>
 						<CImage className="d-block w-100" src={BgImage1} alt="slide 1" />
 						<CCarouselCaption className="d-none d-md-block">
