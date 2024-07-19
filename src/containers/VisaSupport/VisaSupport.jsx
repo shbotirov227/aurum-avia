@@ -21,7 +21,7 @@ import "./VisaSupport.scss";
 const VisaSupport = () => {
 
     const { t } = useTranslation();
-    
+
     const data = [
         {
             id: 0,
@@ -34,19 +34,19 @@ const VisaSupport = () => {
                     icon: <CardIcon8 />,
                     text: t("visaCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon9 />,
                     text: t("visaCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon10 />,
                     text: t("visaCard.p3")
                 },
             ]
         },
-    
+
         {
             id: 1,
             image: CardImg10,
@@ -58,19 +58,19 @@ const VisaSupport = () => {
                     icon: <CardIcon8 />,
                     text: t("visaCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon9 />,
                     text: t("visaCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon10 />,
                     text: t("visaCard.p3")
                 },
             ]
         },
-    
+
         {
             id: 2,
             image: CardImg11,
@@ -82,12 +82,12 @@ const VisaSupport = () => {
                     icon: <CardIcon8 />,
                     text: t("visaCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon9 />,
                     text: t("visaCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon10 />,
                     text: t("visaCard.p3")
@@ -105,19 +105,19 @@ const VisaSupport = () => {
                     icon: <CardIcon8 />,
                     text: t("visaCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon9 />,
                     text: t("visaCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon10 />,
                     text: t("visaCard.p3")
                 },
             ]
         },
-    
+
         {
             id: 4,
             image: CardImg13,
@@ -129,19 +129,19 @@ const VisaSupport = () => {
                     icon: <CardIcon8 />,
                     text: t("visaCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon9 />,
                     text: t("visaCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon10 />,
                     text: t("visaCard.p3")
                 },
             ]
         },
-    
+
         {
             id: 5,
             image: CardImg14,
@@ -153,12 +153,12 @@ const VisaSupport = () => {
                     icon: <CardIcon8 />,
                     text: t("visaCard.p1")
                 },
-    
+
                 {
                     icon: <CardIcon9 />,
                     text: t("visaCard.p2")
                 },
-    
+
                 {
                     icon: <CardIcon10 />,
                     text: t("visaCard.p3")
@@ -180,6 +180,48 @@ const VisaSupport = () => {
                 loop={true}
                 autoplay={{
                     delay: 2500,
+                    pauseOnMouseEnter: true,
+                }}
+                // navigation={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                    },
+                    1024: {
+                        slidesPerView: 5,
+                        spaceBetween: 50,
+                    },
+                }}
+                modules={[Autoplay, Pagination, Navigation]}
+                className="mySwiper"
+            >
+                {
+                    data.map(el => (
+                        <SwiperSlide key={el.id}>
+                            <Card
+                                image={el.image}
+                                bottomTitle={el.bottomTitle}
+                                icon={el.icon}
+                                price={el.price}
+                                cityName={el.cityName}
+                                users={el.users}
+                                items={[...el.items]}
+                            />
+                        </SwiperSlide>
+                    ))
+                }
+            </Swiper>
+            <Swiper
+                slidesPerView={3}
+                spaceBetween={1250}
+                loop={true}
+                autoplay={{
+                    delay: 3500,
                     pauseOnMouseEnter: true,
                 }}
                 // navigation={true}

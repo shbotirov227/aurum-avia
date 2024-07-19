@@ -1,4 +1,4 @@
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 500px) {
     .HeroSection {
         width: 100%;
         // border: 1px solid red;
@@ -6,7 +6,7 @@
 
         &-inner {
             width: 100% !important;
-            border: 1px solid gold;
+            // border: 1px solid gold;
             display: flex;
             flex-direction: column;
             align-items: center;

@@ -265,10 +265,10 @@ const Prices = () => {
             </Swiper>
             <Swiper
                 slidesPerView={1}
-                spaceBetween={100}
+                spaceBetween={125}
                 loop={true}
                 autoplay={{
-                    delay: 2300,
+                    delay: 3500,
                     pauseOnMouseEnter: true,
                 }}
                 // navigation={true}
@@ -282,8 +282,8 @@ const Prices = () => {
                         spaceBetween: 40,
                     },
                     1024: {
-                        slidesPerView: 5,
-                        spaceBetween: 50,
+                        slidesPerView: 6,
+                        spaceBetween: 60,
                     },
                 }}
                 modules={[Autoplay, Pagination, Navigation]}
