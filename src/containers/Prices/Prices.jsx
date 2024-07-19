@@ -224,10 +224,11 @@ const Prices = () => {
             <Swiper
                 slidesPerView={3}
                 spaceBetween={100}
-                loop={true}
+                lazy={true}
+                // loop={true}
                 autoplay={{
                     delay: 2300,
-                    pauseOnMouseEnter: true,
+                    pauseOnMouseEnter: false,
                 }}
                 // navigation={true}
                 breakpoints={{

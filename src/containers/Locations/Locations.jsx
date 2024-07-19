@@ -19,35 +19,35 @@ const Locations = () => {
             id: 0,
             img: Image3,
             title: t('banner3.h1'),
-            population: "2M"
+            population: `${t('banner1.population')} 2 ${t('visitCard.mil')}`
         },
 
         {
             id: 1,
             img: Image1,
             title: t('banner1.h1'),
-            population: "4.1M"
+            population: `${t('banner1.population')} 4.1 ${t('visitCard.mil')}`
         },
 
         {
             id: 2,
             img: Image2,
             title: t('banner2.h1'),
-            population: "3.5M"
+            population: `${t('banner1.population')} 3.5 ${t('visitCard.mil')}`
         },
 
         {
             id: 3,
             img: Image4,
             title: t('banner4.h1'),
-            population: "4M"
+            population: `${t('banner1.population')} 4 ${t('visitCard.mil')}`
         },
 
         {
             id: 4,
             img: Image5,
             title: t('country.usa'),
-            population: "3M"
+            population: `${t('banner1.population')} 3 ${t('visitCard.mil')}`
         },
     ];
 

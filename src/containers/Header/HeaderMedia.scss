@@ -3,7 +3,6 @@
         width: 100%;
 
         &-inner {
-
             img {
                 margin-left: 20px !important;
             }
@@ -17,5 +16,30 @@
             display: none;
         }
     }
+}
 
+@media only screen and (max-width: 1026px) {
+    .Header {
+        .logo {
+            width: 100px;
+        }
+
+        &-link,
+        &-lang {
+            font-size: 12px;
+        }
+    }
+}
+
+@media only screen and (max-width: 932px) {
+    .Header {
+        &-links,
+        &-lang {
+            display: none;
+        }
+
+        .btn-burger {
+            display: block;
+        }
+    }
 }

@@ -22,7 +22,7 @@
     },
     "banner4":{
         "h2":"Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
-        "h1":"Sharm-El-Sheikh",
+        "h1":"Sharm al-Shayx",
         "population":"Aholisi:",
         "territory":"Hududi:",
         "avgPrice":"O'rtacha narx:"
@@ -73,7 +73,7 @@
         "japan":"Yaponiya",
         "oman":"Oman",
         "saudia":"Saudia Arabistoni",
-        "india":"Indiya",
+        "india":"Hindiston",
         "china":"Xitoy",
         "hong":"Gong Kong"
     },
@@ -130,7 +130,7 @@
         "phone":"Telefon raqam",
         "email":"Bizga email orqali bog'laning",
         "location":"Ofisimizga tashrif buyuring",
-        "place":"15/25, Chilanzar - 9, Tashkent city"
+        "place":"Toshkent shahar, Uchtepa tumani, 14-mavze,1-uy"
     },
     "form":{
         "h2":{

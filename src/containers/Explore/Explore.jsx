@@ -29,7 +29,7 @@ const Explore = () => {
     ];
 
     return (
-        <div className="Explore container">
+        <div className="Explore container" id="about">
             <MainTitle
                 title={t("destination.h2")}
                 text={t("destination.p")}
