@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { CCarousel, CCarouselCaption, CCarouselItem, CImage } from '@coreui/react';
 import '@coreui/coreui/dist/css/coreui.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import HeroInfoCard from "../../components/HeroInfoCard/HeroInfoCard";
+
 import BgImage1 from "../../assets/images/bgImg1.jpg";
 import BgImage2 from "../../assets/images/bgImg2.jpg";
 import BgImage3 from "../../assets/images/bgImg3.jpg";
@@ -22,9 +22,14 @@ const HeroSection = () => {
 	return (
 		<div className="HeroSection">
 			<div className="HeroSection-inner">
-				<CCarousel controls indicators pause={false} interval={4000} transition="crossfade">
+				<CCarousel controls indicators pause={true} interval={3000} transition="crossfade">
 					<CCarouselItem className='Carousel'>
-						<CImage className="d-block w-100" src={BgImage1} alt="slide 1" />
+						<CImage style={{
+							background: "rgba(5, 27, 41, 0.18)",
+							boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+							backdropFilter: "blur(2px)",
+							filter: "brightness(50%)"
+						}} className="d-block w-100" src={BgImage1} alt="slide 1" />
 						<CCarouselCaption className="d-none d-md-block">
 							<h4 className="HeroSection-title">{t("banner1.h2")}</h4>
 							<h3 className="HeroSection-cityName">{t('banner1.h1')}</h3>
@@ -35,7 +40,12 @@ const HeroSection = () => {
 
 
 					<CCarouselItem>
-						<CImage className="d-block w-100" src={BgImage2} alt="slide 2" />
+						<CImage style={{
+							background: "rgba(5, 27, 41, 0.18)",
+							boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+							backdropFilter: "blur(2px)",
+							filter: "brightness(50%)"
+						}} className="d-block w-100" src={BgImage2} alt="slide 2" />
 						<CCarouselCaption className="d-none d-md-block">
 							<h4 className="HeroSection-title">{t('banner2.h2')}</h4>
 							<h3 className="HeroSection-cityName">{t('banner2.h1')}</h3>
@@ -45,7 +55,12 @@ const HeroSection = () => {
 					</CCarouselItem>
 
 					<CCarouselItem>
-						<CImage className="d-block w-100" src={BgImage3} alt="slide 3" />
+						<CImage style={{
+							background: "rgba(5, 27, 41, 0.18)",
+							boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+							backdropFilter: "blur(2px)",
+							filter: "brightness(50%)"
+						}} className="d-block w-100" src={BgImage3} alt="slide 3" />
 						<CCarouselCaption className="d-none d-md-block">
 							<h4 className="HeroSection-title">{t('banner3.h2')}</h4>
 							<h3 className="HeroSection-cityName">{t('banner3.h1')}</h3>
@@ -55,7 +70,12 @@ const HeroSection = () => {
 					</CCarouselItem>
 
 					<CCarouselItem>
-						<CImage className="d-block w-100" src={BgImage4} alt="slide 3" />
+						<CImage style={{
+							background: "rgba(5, 27, 41, 0.18)",
+							boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+							backdropFilter: "blur(2px)",
+							filter: "brightness(50%)",
+						}} className="d-block w-100" src={BgImage4} alt="slide 3" />
 						<CCarouselCaption className="d-none d-md-block">
 							<h4 className="HeroSection-title">{t('banner4.h2')}</h4>
 							<h3 className="HeroSection-cityName">{t('banner4.h1')}</h3>

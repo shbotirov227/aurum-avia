@@ -4,6 +4,7 @@
   "homepage": "http://aurum-avia.uz",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@coreui/coreui": "^5.0.2",
     "@coreui/react": "^5.1.0",
     "@emotion/react": "^11.11.4",

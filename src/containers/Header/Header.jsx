@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { InstagramIcon, TelegramIcon } from "../../assets/icons";
 import Logo from "../../assets/images/logo2.png";
 import { IoMenu, IoClose } from "react-icons/io5";
+import { FaTelegram, FaSquareInstagram } from "react-icons/fa6";
 
 import "./Header.scss";
 import "./HeaderMedia.scss";
@@ -14,7 +15,7 @@ const Header = () => {
 
 	const [active, setActive] = useState(false);
 
-	const { t } = useTranslation()
+	const { t } = useTranslation();
 	function changeLang(lang) {
 		i18next.changeLanguage(lang)
 	}
@@ -23,16 +24,24 @@ const Header = () => {
 		<div className="Header" id="header">
 
 			{
-				<div className={`overlay ${active ? "active" : ""}`}>
-					<button onClick={() => setActive(false)} className="btn-burger">
-						<IoClose />
-					</button>
+				<div className={`overlay ${active ? "active" : "deactive"}`}>
 
 					<ul className="overlay-menu">
 						<li><a className="overlay-link" href="/">{t("header.home")}</a></li>
 						<li><a className="overlay-link" href="#about">{t("header.about")}</a></li>
 						<li><a className="overlay-link" href="#tours">{t("header.tours")}</a></li>
 						<li><a className="overlay-link" href="#contact">{t("header.contact")}</a></li>
+
+						<div className="overlay-langs">
+							<button onClick={e => { changeLang("uz") }} className="overlay-lang" to="/">UZ</button>
+							<button onClick={e => { changeLang("en") }} className="overlay-lang" to="/">ENG</button>
+							<button onClick={e => { changeLang("ru") }} className="overlay-lang" to="/">RU</button>
+
+						</div>
+						<div className="icons">
+							<Link className="overlay-lang" to="/"><FaTelegram /></Link>
+							<Link className="overlay-lang" to="/"><FaSquareInstagram /></Link>
+						</div>
 					</ul>
 				</div>
 			}
@@ -54,8 +63,8 @@ const Header = () => {
 					<Link className="Header-lang" to="/"><TelegramIcon /></Link>
 					<Link className="Header-lang" to="/"><InstagramIcon /></Link>
 				</div>
-				<button onClick={() => setActive(true)} className="btn-burger">
-					<IoMenu />
+				<button onClick={() => setActive(!active)} className="btn-burger">
+					{active ? <IoClose color="#fff" /> : <IoMenu color="#fff" />}
 				</button>
 			</div>
 

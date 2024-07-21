@@ -83,12 +83,24 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 21px;
-            color: #22B3C1;
+            color: #5992B1;
+            transition: all ease 0.3s;
 
             svg {
                 margin-left: 5px;
                 width: 12px;
                 height: 12px;
+                transition: all ease 0.3s;
+            }
+
+            &:hover {
+                font-size: 16px;
+                svg {
+                    width: 15px;
+                    height: 15px;
+                    margin-left: 15px;
+                    transform: rotate(180deg);
+                }
             }
         }
     }
