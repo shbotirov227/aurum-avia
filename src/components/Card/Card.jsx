@@ -3,7 +3,7 @@ import { CardIcon1 } from "../../assets/icons";
 import { useTranslation } from "react-i18next";
 
 import "./Card.scss";
-import "./CardMedia.scss";
+// import "./CardMedia.scss";
 
 const Card = ({ image, cityName, users, price, items, bottomTitle }) => {
 

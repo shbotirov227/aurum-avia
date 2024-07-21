@@ -19,7 +19,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import "./Prices.scss";
-import "./PricesMedia.scss";
+// import "./PricesMedia.scss";
 
 
 const Prices = () => {
@@ -224,7 +224,7 @@ const Prices = () => {
             <Swiper
                 slidesPerView={3}
                 spaceBetween={100}
-                lazy={true}
+                // lazy={true}
                 // loop={true}
                 autoplay={{
                     delay: 2300,
@@ -232,6 +232,14 @@ const Prices = () => {
                 }}
                 // navigation={true}
                 breakpoints={{
+                    375: {
+                        slidesPerView: 1,
+                        spaceBetween: 5,
+                    },
+                    568: {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
                     640: {
                         slidesPerView: 2,
                         spaceBetween: 20,
@@ -263,7 +271,7 @@ const Prices = () => {
                     ))
                 }
             </Swiper>
-            <Swiper
+            {/* <Swiper
                 slidesPerView={1}
                 spaceBetween={125}
                 loop={true}
@@ -303,7 +311,7 @@ const Prices = () => {
                         </SwiperSlide>
                     ))
                 }
-            </Swiper>
+            </Swiper> */}
         </div>
     )
 }

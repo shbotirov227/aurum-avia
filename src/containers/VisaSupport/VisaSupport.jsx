@@ -20,6 +20,10 @@ import "./VisaSupport.scss";
 
 const VisaSupport = () => {
 
+    window.addEventListener("resize", function (event) {
+        console.log(document.body.clientWidth + ' wide by ' + document.body.clientHeight + ' high');
+    })
+
     const { t } = useTranslation();
 
     const data = [
@@ -175,26 +179,57 @@ const VisaSupport = () => {
             />
 
             <Swiper
-                slidesPerView={3}
-                spaceBetween={100}
+                slidesPerView={2}
+                spaceBetween={250}
                 loop={true}
                 autoplay={{
-                    delay: 2500,
+                    delay: 3000,
                     pauseOnMouseEnter: true,
                 }}
                 // navigation={true}
                 breakpoints={{
+                    576: {
+
+                    },
                     640: {
-                        slidesPerView: 2,
+                        slidesPerView: 3,
                         spaceBetween: 20,
                     },
+                    700: {
+                        slidesPerView: 1.7,
+                        spaceBetween: 200,
+                    },
                     768: {
-                        slidesPerView: 4,
-                        spaceBetween: 40,
+                        slidesPerView: 2,
+                        spaceBetween: 200,
+                    },
+                    992: {
+                        slidesPerView: 2,
+                        spaceBetween: 150,
+                    },
+                    1000: {
+                        slidesPerView: 2,
+                        spaceBetween: 190,
                     },
                     1024: {
-                        slidesPerView: 5,
-                        spaceBetween: 50,
+                        slidesPerView: 2,
+                        spaceBetween: 170,
+                    },
+                    110: {
+                        slidesPerView: 2.7,
+                        spaceBetween: 190,
+                    },
+                    1200: {
+                        slidesPerView: 2.7,
+                        spaceBetween: 190,
+                    },
+                    1300: {
+                        slidesPerView: 3,
+                        spaceBetween: 180,
+                    },
+                    1440: {
+                        slidesPerView: 3,
+                        spaceBetween: 250,
                     },
                 }}
                 modules={[Autoplay, Pagination, Navigation]}
@@ -216,7 +251,7 @@ const VisaSupport = () => {
                     ))
                 }
             </Swiper>
-            <Swiper
+            {/* <Swiper
                 slidesPerView={3}
                 spaceBetween={1250}
                 loop={true}
@@ -257,7 +292,7 @@ const VisaSupport = () => {
                         </SwiperSlide>
                     ))
                 }
-            </Swiper>
+            </Swiper> */}
         </div>
     )
 }
