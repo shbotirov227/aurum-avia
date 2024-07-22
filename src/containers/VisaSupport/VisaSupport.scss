@@ -80,27 +80,26 @@
         width: 100%;
 
         .Card {
-            width: 300px !important;
+            // width: 300px !important;
             // height: 300px;
-
             img {
-                width: 60%;
+                // width: 60%;
                 // height: 300px;
             }
 
-            &-body {
-                position: relative !important;
-                display: inline-block;
-                border-radius: 20px;
-                box-shadow: 5px 10px 25px 0px rgba(0, 0, 0, 0.45);
-                background-color: #fff;
-                padding: 25px 20px;
-                z-index: 2;
+            // &-body {
+            //     position: relative !important;
+            //     display: inline-block;
+            //     border-radius: 20px;
+            //     box-shadow: 5px 10px 25px 0px rgba(0, 0, 0, 0.45);
+            //     background-color: #fff;
+            //     padding: 25px 20px;
+            //     z-index: 2;
 
-                width: 80%;
-                top: -150px;
-                right: -130px;
-            }
+            //     width: 80%;
+            //     top: -150px;
+            //     right: -130px;
+            // }
         }
     }
 }

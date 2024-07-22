@@ -183,40 +183,77 @@ const VisaSupport = () => {
                 spaceBetween={250}
                 loop={true}
                 autoplay={{
-                    delay: 3000,
+                    delay: 300000,
                     pauseOnMouseEnter: true,
                 }}
                 // navigation={true}
                 breakpoints={{
+                    275: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
+                    375: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
+                    400: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
+                    450: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
+                    500: {
+                        slidesPerView: 1,
+                        spaceBetween: 230,
+                    },
                     576: {
-
+                        slidesPerView: 1,
+                        spaceBetween: 250,
                     },
                     640: {
-                        slidesPerView: 3,
-                        spaceBetween: 20,
+                        slidesPerView: 1.3,
+                        spaceBetween: 240,
                     },
                     700: {
+                        slidesPerView: 1.5,
+                        spaceBetween: 230,
+                    },
+                    768: {
+                        slidesPerView: 1.5,
+                        spaceBetween: 190,
+                    },
+                    800: {
+                        slidesPerView: 1.5,
+                        spaceBetween: 190,
+                    },
+                    850: {
                         slidesPerView: 1.7,
                         spaceBetween: 200,
                     },
-                    768: {
-                        slidesPerView: 2,
-                        spaceBetween: 200,
-                    },
-                    992: {
-                        slidesPerView: 2,
-                        spaceBetween: 150,
-                    },
-                    1000: {
+                    900: {
                         slidesPerView: 2,
                         spaceBetween: 190,
                     },
+                    992: {
+                        slidesPerView: 2,
+                        spaceBetween: 190,
+                    },
+                    1000: {
+                        slidesPerView: 2,
+                        spaceBetween: 200,
+                    },
                     1024: {
                         slidesPerView: 2,
-                        spaceBetween: 170,
+                        spaceBetween: 200,
                     },
-                    110: {
-                        slidesPerView: 2.7,
+                    1100: {
+                        slidesPerView: 2.4,
                         spaceBetween: 190,
                     },
                     1200: {
@@ -251,48 +288,6 @@ const VisaSupport = () => {
                     ))
                 }
             </Swiper>
-            {/* <Swiper
-                slidesPerView={3}
-                spaceBetween={1250}
-                loop={true}
-                autoplay={{
-                    delay: 3500,
-                    pauseOnMouseEnter: true,
-                }}
-                // navigation={true}
-                breakpoints={{
-                    640: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                    },
-                    768: {
-                        slidesPerView: 4,
-                        spaceBetween: 40,
-                    },
-                    1024: {
-                        slidesPerView: 5,
-                        spaceBetween: 50,
-                    },
-                }}
-                modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper"
-            >
-                {
-                    data.map(el => (
-                        <SwiperSlide key={el.id}>
-                            <Card
-                                image={el.image}
-                                bottomTitle={el.bottomTitle}
-                                icon={el.icon}
-                                price={el.price}
-                                cityName={el.cityName}
-                                users={el.users}
-                                items={[...el.items]}
-                            />
-                        </SwiperSlide>
-                    ))
-                }
-            </Swiper> */}
         </div>
     )
 }
