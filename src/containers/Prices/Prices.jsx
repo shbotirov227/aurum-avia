@@ -221,8 +221,6 @@ const Prices = () => {
                 text={t("weekly.p")}
             />
 
-            {/* ?alksdf */}
-
             <Swiper
                 slidesPerView={2}
                 spaceBetween={250}
