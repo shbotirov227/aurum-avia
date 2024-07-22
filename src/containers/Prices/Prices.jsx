@@ -19,7 +19,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import "./Prices.scss";
-// import "./PricesMedia.scss";
+import "./PricesMedia.scss";
 
 
 const Prices = () => {
@@ -222,35 +222,94 @@ const Prices = () => {
             />
 
             <Swiper
-                slidesPerView={3}
-                spaceBetween={100}
-                // lazy={true}
-                // loop={true}
+                slidesPerView={2}
+                spaceBetween={250}
+                loop={true}
                 autoplay={{
-                    delay: 2300,
+                    delay: 230000,
                     pauseOnMouseEnter: false,
                 }}
                 // navigation={true}
                 breakpoints={{
+                    275: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
                     375: {
                         slidesPerView: 1,
-                        spaceBetween: 5,
+                        spaceBetween: 0,
                     },
-                    568: {
+                    400: {
                         slidesPerView: 1,
-                        spaceBetween: 10,
+                        spaceBetween: 0,
+                    },
+                    450: {
+                        slidesPerView: 1.2,
+                        spaceBetween: 240,
+                    },
+                    500: {
+                        slidesPerView: 1.3,
+                        spaceBetween: 230,
+                    },
+                    576: {
+                        slidesPerView: 1.3,
+                        spaceBetween: 250,
                     },
                     640: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
+                        slidesPerView: 1.3,
+                        spaceBetween: 240,
+                    },
+                    700: {
+                        slidesPerView: 1.5,
+                        spaceBetween: 230,
                     },
                     768: {
-                        slidesPerView: 4,
-                        spaceBetween: 40,
+                        slidesPerView: 1.5,
+                        spaceBetween: 190,
+                    },
+                    800: {
+                        slidesPerView: 1.5,
+                        spaceBetween: 250,
+                    },
+                    850: {
+                        slidesPerView: 1.7,
+                        spaceBetween: 200,
+                    },
+                    900: {
+                        slidesPerView: 2,
+                        spaceBetween: 190,
+                    },
+                    992: {
+                        slidesPerView: 2,
+                        spaceBetween: 190,
+                    },
+                    1000: {
+                        slidesPerView: 2,
+                        spaceBetween: 200,
                     },
                     1024: {
-                        slidesPerView: 5,
-                        spaceBetween: 50,
+                        slidesPerView: 2,
+                        spaceBetween: 200,
+                    },
+                    1100: {
+                        slidesPerView: 2.4,
+                        spaceBetween: 190,
+                    },
+                    1200: {
+                        slidesPerView: 2.7,
+                        spaceBetween: 190,
+                    },
+                    1300: {
+                        slidesPerView: 3,
+                        spaceBetween: 180,
+                    },
+                    1440: {
+                        slidesPerView: 3,
+                        spaceBetween: 250,
                     },
                 }}
                 modules={[Autoplay, Pagination, Navigation]}
@@ -271,47 +330,6 @@ const Prices = () => {
                     ))
                 }
             </Swiper>
-            {/* <Swiper
-                slidesPerView={1}
-                spaceBetween={125}
-                loop={true}
-                autoplay={{
-                    delay: 3500,
-                    pauseOnMouseEnter: true,
-                }}
-                // navigation={true}
-                breakpoints={{
-                    640: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                    },
-                    768: {
-                        slidesPerView: 4,
-                        spaceBetween: 40,
-                    },
-                    1024: {
-                        slidesPerView: 6,
-                        spaceBetween: 60,
-                    },
-                }}
-                modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper"
-            >
-                {
-                    data.map(el => (
-                        <SwiperSlide key={el.id}>
-                            <Card
-                                image={el.image}
-                                icon={el.icon}
-                                price={el.price}
-                                cityName={el.cityName}
-                                users={el.users}
-                                items={[...el.items]}
-                            />
-                        </SwiperSlide>
-                    ))
-                }
-            </Swiper> */}
         </div>
     )
 }
