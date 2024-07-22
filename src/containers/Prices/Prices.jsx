@@ -19,7 +19,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import "./Prices.scss";
-// import "./PricesMedia.scss";
+import "./PricesMedia.scss";
 
 
 const Prices = () => {
