@@ -1,6 +1,7 @@
 @media (max-width: 500px) {
     .Header {
         width: 100%;
+        z-index: 10;
 
         &-links {
             display: none;
@@ -14,6 +15,8 @@
 
 @media only screen and (max-width: 1026px) {
     .Header {
+        z-index: 10;
+
         .logo {
             width: 100px;
         }
@@ -27,6 +30,8 @@
 
 @media only screen and (max-width: 932px) {
     .Header {
+        z-index: 10;
+
         &-links,
         &-lang {
             display: none;

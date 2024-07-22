@@ -229,7 +229,6 @@ const Prices = () => {
                     delay: 230000,
                     pauseOnMouseEnter: false,
                 }}
-                // navigation={true}
                 breakpoints={{
                     275: {
                         slidesPerView: 1,
