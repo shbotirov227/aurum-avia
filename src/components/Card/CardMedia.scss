@@ -1,27 +1,174 @@
-@media only screen and (max-width: 500px) and (min-width: 400px) {
+@media only screen and (max-width: 560px) and (min-width: 400px) {
     .Card {
         width: 100%;
         margin-right: 0;
 
         &-img {
-
+            
             img {
-                width: 100%;
-                border-bottom-left-radius: 0;
-                border-top-right-radius: 40px;
+                width: 70%;
+                height: 200px;
+                border-radius: 15px 15px 0 0;
+                object-fit: cover;
             }
         }
 
         &-body {
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
-            width: 100%;
+            border-radius: 0 0 15px 15px;
+            width: 70%;
             right: 0;
             top: 0;
+            padding: 25px 20px;
+        }
+
+        &-top {
+            text-align: left;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+    
+            &-title {
+                font-size: 17px;
+                line-height: 17px;
+            }
+    
+            &-users {
+                font-size: 12px;
+                line-height: 13px;
+            }
+    
+            &-price {
+    
+                &-value {
+                    font-size: 17px;
+                    line-height: 20px;
+                    margin-bottom: 10px;
+                }
+    
+                &-title {
+                    font-size: 12px;
+                    line-height: 15px;
+                }
+            }
+        }
+
+        &-bottom {
+            
+            &-title {
+                font-size: 13px;
+                line-height: 17px;
+                margin-bottom: 10px;
+            }
+    
+            &-items {
+                margin-bottom: 15px;
+            }
+    
+            &-item {
+                font-size: 12px;
+                line-height: 17px;
+            }
+
+            .btn-default {
+                font-size: 13px;
+                padding: 10px 0;
+            }
         }
     }
 }
 
-@media only screen and (max-width: 500px) and (min-width: 400px) {
-    
+@media only screen and (max-width: 575px) and (min-width: 561px) {
+    .Card {
+        width: 100%;
+        height: 575px;
+        margin-right: 0;
+
+        &-img {
+            
+            img {
+                width: 70%;
+                height: 200px;
+                border-radius: 15px 15px 0 0;
+                object-fit: cover;
+            }
+        }
+
+        &-top {
+            text-align: left;
+        }
+
+        &-body {
+            border-radius: 0 0 15px 15px;
+            width: 70%;
+            right: 0;
+            top: 0;
+            padding: 25px 20px;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 576px) {
+    .Card {
+        width: 100%;
+        height: 575px;
+        margin-right: 0;
+
+        &-top {
+            text-align: left;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 700px) {
+    .Card {
+        height: 575px;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 769px) {
+    .Card {
+        height: 575px;
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+    .Card {
+        height: 575px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+    .Card {
+        height: 575px;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 900px) {
+    .Card {
+        height: 575px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 992px) {
+    .Card {
+        height: 575px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+    .Card {
+        height: 575px;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1200px) {
+    .Card {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 1580px) and (min-width: 1440px) {
+    .Card {
+        height: 600px;
+    }
 }

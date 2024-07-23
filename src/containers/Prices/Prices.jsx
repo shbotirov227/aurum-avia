@@ -225,6 +225,7 @@ const Prices = () => {
                 slidesPerView={2}
                 spaceBetween={250}
                 loop={true}
+                pagination={true}
                 autoplay={{
                     delay: 230000,
                     pauseOnMouseEnter: false,
@@ -247,12 +248,16 @@ const Prices = () => {
                         spaceBetween: 0,
                     },
                     450: {
-                        slidesPerView: 1.2,
-                        spaceBetween: 240,
+                        slidesPerView: 1,
+                        spaceBetween: 0,
                     },
                     500: {
-                        slidesPerView: 1.3,
-                        spaceBetween: 230,
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
+                    561: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
                     },
                     576: {
                         slidesPerView: 1.3,
@@ -264,19 +269,19 @@ const Prices = () => {
                     },
                     700: {
                         slidesPerView: 1.5,
-                        spaceBetween: 230,
+                        spaceBetween: 140,
                     },
                     768: {
                         slidesPerView: 1.5,
-                        spaceBetween: 190,
+                        spaceBetween: 150,
                     },
                     800: {
                         slidesPerView: 1.5,
-                        spaceBetween: 250,
+                        spaceBetween: 150,
                     },
                     850: {
-                        slidesPerView: 1.7,
-                        spaceBetween: 200,
+                        slidesPerView: 1.8,
+                        spaceBetween: 170,
                     },
                     900: {
                         slidesPerView: 2,

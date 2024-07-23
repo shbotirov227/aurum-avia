@@ -17,6 +17,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import "./VisaSupport.scss";
+import "./VisaSupportMedia.scss";
 
 const VisaSupport = () => {
 
@@ -186,7 +187,7 @@ const VisaSupport = () => {
                     delay: 300000,
                     pauseOnMouseEnter: true,
                 }}
-                // navigation={true}
+                pagination={true}
                 breakpoints={{
                     275: {
                         slidesPerView: 1,
@@ -210,10 +211,14 @@ const VisaSupport = () => {
                     },
                     500: {
                         slidesPerView: 1,
-                        spaceBetween: 230,
+                        spaceBetween: 0,
+                    },
+                    561: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
                     },
                     576: {
-                        slidesPerView: 1,
+                        slidesPerView: 1.3,
                         spaceBetween: 250,
                     },
                     640: {
@@ -222,19 +227,19 @@ const VisaSupport = () => {
                     },
                     700: {
                         slidesPerView: 1.5,
-                        spaceBetween: 230,
+                        spaceBetween: 140,
                     },
                     768: {
                         slidesPerView: 1.5,
-                        spaceBetween: 190,
+                        spaceBetween: 150,
                     },
                     800: {
                         slidesPerView: 1.5,
-                        spaceBetween: 190,
+                        spaceBetween: 150,
                     },
                     850: {
-                        slidesPerView: 1.7,
-                        spaceBetween: 200,
+                        slidesPerView: 1.8,
+                        spaceBetween: 170,
                     },
                     900: {
                         slidesPerView: 2,
