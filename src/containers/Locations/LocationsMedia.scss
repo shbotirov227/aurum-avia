@@ -1,22 +1,4 @@
-@media (max-width:440px) {
-    .MainTitle {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        &-title {
-            font-size: 25px;
-            width: 85%;
-            text-align: center;
-        }
-
-        &-text {
-            width: 95%;
-            font-size: 15px;
-        }
-    }
-}
+@media only screen and (max-width: 560px) and (min-width: 400px) {}
 
 @media only screen and (max-width: 575px) and (min-width: 561px) {}
 

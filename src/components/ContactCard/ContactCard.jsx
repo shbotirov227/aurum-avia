@@ -1,6 +1,7 @@
 import React from 'react';
 
 import "./ContactCard.scss";
+import "./ContactCardMedia.scss";
 
 const ContactCard = ({ icon, title, text, url, number, numberUrl }) => {
     return (
