@@ -7,7 +7,6 @@
     display: flex;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    // border: 2px solid #25e60c;
 
     img {
         width: 30%;
@@ -21,6 +20,7 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 20px;
+
     }
 
     &-bottom {
@@ -95,6 +95,7 @@
 
             &:hover {
                 font-size: 16px;
+
                 svg {
                     width: 15px;
                     height: 15px;

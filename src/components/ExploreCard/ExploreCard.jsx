@@ -3,6 +3,7 @@ import { ArrowIcon, ExploreCardIcon1, ExploreCardIcon2, ExploreCardIcon3 } from 
 import { useTranslation } from "react-i18next";
 
 import "./ExploreCard.scss";
+import "./ExploreCardMedia.scss";
 
 const ExploreCard = ({ image, title, author, text, peoples, area, price }) => {
 

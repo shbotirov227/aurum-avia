@@ -9,6 +9,7 @@ import Image4 from "../../assets/images/bgImg4.jpg";
 import Image5 from "../../assets/images/cardImg5.jpg";
 
 import "./Locations.scss";
+import "./LocationsMedia.scss";
 
 const Locations = () => {
 

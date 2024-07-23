@@ -121,11 +121,11 @@ const Footer = () => {
 								</ul>
 							</div>
 						</div>
-					<div class="col-xl-3 col-lg-6 text-center text-lg-right">
-						<div class="copyright-text">
-							<p>Developed by <a target="_blank" rel="noreferrer" href="https://t.me/@shbotirov227">shbotirov</a></p>
+						<div class="col-xl-3 col-lg-6 text-center text-lg-right">
+							<div class="copyright-text">
+								<p>Developed by <a target="_blank" rel="noreferrer" href="https://t.me/@shbotirov227">shbotirov</a></p>
+							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 			</div>

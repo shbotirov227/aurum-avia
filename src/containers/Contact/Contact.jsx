@@ -7,9 +7,10 @@ import { IoIosMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 
 import "./Contact.scss";
+import "./ContactMedia.scss";
 
 const Contact = () => {
-    
+
     const { t } = useTranslation();
 
     const data = [
@@ -22,7 +23,7 @@ const Contact = () => {
             number: "+998 90 986 09 86",
             numberUrl: "tel:+998 90 986 09 86"
         },
-    
+
         {
             id: 1,
             icon: <IoIosMail />,
@@ -30,7 +31,7 @@ const Contact = () => {
             text: "aurum_avia@gmail.com",
             url: "mailto:aurum_avia@gmail.com"
         },
-    
+
         {
             id: 2,
             icon: <FaLocationDot />,

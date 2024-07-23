@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 
 import "./ImageSlider.scss";
+import "./ImageSliderMedia.scss";
 
 const ImageSlider = ({ children, data }) => {
 
     // const [activeId, setActiveId] = useState(2);
-    const [active, setActive]=useState(1)
+    const [active, setActive] = useState(1)
 
     // const handleClick = (e) => {
     //     if (activeId === e.target.id) {

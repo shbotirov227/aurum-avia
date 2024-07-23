@@ -5,11 +5,23 @@
         &-title {
             text-align: left;
         }
-        
+
         &-text {
             width: 40%;
             text-align: left;
             margin: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 560px) and (min-width: 400px) {
+    .Visit {
+        .MainTitle {
+            &-text {
+                width: 85%;
+                text-align: left;
+                margin: 0;
+            }
         }
     }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import "./FormCard.scss"
+import "./FormCardMedia.scss"
 
 const FormCard = ({ icon, title, text, url, insta }) => {
     return (

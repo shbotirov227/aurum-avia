@@ -5,6 +5,7 @@ import FormCard from '../../components/FormCard/FormCard';
 // import ContactCard from "../../components/ContactCard/ContactCard";
 
 import "./FormSection.scss";
+import "./FormSectionMedia.scss";
 
 const FormSection = () => {
 

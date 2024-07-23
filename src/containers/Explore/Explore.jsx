@@ -5,6 +5,7 @@ import ExploreCardImg1 from "../../assets/images/exploreCardImg1.jpg";
 import ExploreCardImg2 from "../../assets/images/exploreCardImg2.jpg";
 import { useTranslation } from "react-i18next";
 import "./Explore.scss";
+import "./ExploreMedia.scss";
 
 const Explore = () => {
 
@@ -18,7 +19,7 @@ const Explore = () => {
             author: t("destinationCard.1.subtitle"),
             text: t("destinationCard.1.parag"),
         },
-    
+
         {
             id: 1,
             image: ExploreCardImg2,
