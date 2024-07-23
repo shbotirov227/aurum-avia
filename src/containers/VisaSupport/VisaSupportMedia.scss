@@ -21,6 +21,84 @@
                 }
             }
         }
+
+        .Card {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    
+            &-img {
+                img {
+                    width: 310px;
+                    height: 200px;
+                    border-radius: 15px 15px 0 0;
+                    object-fit: cover;
+                }
+            }
+    
+            &-body {
+                border-radius: 0 0 15px 15px;
+                // width: 70%;
+                right: 0;
+                top: 0;
+                padding: 25px 20px;
+            }
+    
+            &-top {
+                text-align: left;
+                padding-bottom: 15px;
+                margin-bottom: 15px;
+        
+                &-title {
+                    font-size: 17px;
+                    line-height: 17px;
+                }
+        
+                &-users {
+                    font-size: 12px;
+                    line-height: 13px;
+                }
+        
+                &-price {
+        
+                    &-value {
+                        font-size: 17px;
+                        line-height: 20px;
+                        margin-bottom: 10px;
+                    }
+        
+                    &-title {
+                        font-size: 12px;
+                        line-height: 15px;
+                    }
+                }
+            }
+    
+            &-bottom {
+                
+                &-title {
+                    font-size: 13px;
+                    line-height: 17px;
+                    margin-bottom: 10px;
+                }
+        
+                &-items {
+                    margin-bottom: 15px;
+                }
+        
+                &-item {
+                    font-size: 12px;
+                    line-height: 17px;
+                }
+    
+                .btn-default {
+                    font-size: 13px;
+                    padding: 10px 0;
+                }
+            }
+        }
     }
 }
 
