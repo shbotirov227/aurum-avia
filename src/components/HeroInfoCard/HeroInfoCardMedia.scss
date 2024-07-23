@@ -1,5 +1,270 @@
 @media only screen and (max-width: 560px) and (min-width: 400px) {
     .HeroInfoCard {
+        width: 95% !important;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 23px;
+        padding: 15px 25px;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            justify-content: center !important;
+            margin-top: 10px;
+            gap: 20px;
+
+            svg {
+                width: 40px;
+                height: 40px;
+                padding: 7px;
+            }
+        }
+
+        &-title {
+            font-size: 13px;
+        }
+
+        &-value {
+            color: #3B667D;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 28px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 575px) and (min-width: 561px) {
+    .HeroInfoCard {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 23px;
+        padding: 15px 25px;
+        gap: 10px;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            justify-content: center !important;
+            margin-top: 10px;
+
+            svg {
+                width: 40px;
+                height: 40px;
+                padding: 7px;
+            }
+        }
+
+        &-title {
+            font-size: 13px;
+        }
+
+        &-value {
+            color: #3B667D;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 28px;
+        }
+    }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 576px) {
+    .HeroInfoCard {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 23px;
+        padding: 15px 25px;
+        gap: 15px;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            justify-content: center !important;
+            margin-top: 10px;
+            // border: 1px solid red;
+
+            svg {
+                width: 40px;
+                height: 40px;
+                padding: 7px;
+            }
+        }
+
+        &-title {
+            font-size: 13px;
+        }
+
+        &-value {
+            color: #3B667D;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 28px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 700px) {
+    .HeroInfoCard {
+        width: 85%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 23px;
+        padding: 15px 25px;
+        gap: 15px;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            justify-content: center !important;
+            margin-top: 10px;
+
+            svg {
+                width: 40px;
+                height: 40px;
+                padding: 7px;
+            }
+        }
+
+        &-title {
+            font-size: 13px;
+        }
+
+        &-value {
+            color: #3B667D;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 28px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 769px) {
+    .HeroInfoCard {
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 23px;
+        padding: 15px 25px;
+        gap: 10px;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            justify-content: center !important;
+            margin-top: 10px;
+
+            svg {
+                width: 40px;
+                height: 40px;
+                padding: 7px;
+            }
+        }
+
+        &-title {
+            font-size: 13px;
+        }
+
+        &-value {
+            color: #3B667D;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 28px;
+        }
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+    .HeroInfoCard {
+        width: 85%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 23px;
+        padding: 15px 25px;
+        gap: 18px;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            justify-content: center !important;
+            margin-top: 10px;
+
+            svg {
+                width: 40px;
+                height: 40px;
+                padding: 7px;
+            }
+        }
+
+        &-title {
+            font-size: 13px;
+        }
+
+        &-value {
+            color: #3B667D;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 28px;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+    .HeroInfoCard {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 23px;
+        padding: 15px 25px;
+        gap: 20px;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            justify-content: center !important;
+            margin-top: 10px;
+
+            svg {
+                width: 40px;
+                height: 40px;
+                padding: 7px;
+            }
+        }
+
+        &-title {
+            font-size: 13px;
+        }
+
+        &-value {
+            color: #3B667D;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 28px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1580px) and (min-width: 900px) {
+    .HeroInfoCard {
         width: 95%;
         height: auto;
         display: flex;
@@ -25,25 +290,10 @@
         }
 
         &-value {
-            color: #22B3C1;
+            color: #3B667D;
             font-weight: 700;
             font-size: 15px;
             line-height: 28px;
         }
     }
 }
-
-
-@media only screen and (max-width: 575px) and (min-width: 561px) {}
-
-@media only screen and (max-width: 699px) and (min-width: 576px) {}
-
-@media only screen and (max-width: 768px) and (min-width: 700px) {}
-
-@media only screen and (max-width: 800px) and (min-width: 769px) {}
-
-@media only screen and (max-width: 850px) and (min-width: 800px) {}
-
-@media only screen and (max-width: 900px) and (min-width: 850px) {}
-
-@media only screen and (max-width: 1580px) and (min-width: 900px) {}
