@@ -1,15 +1,163 @@
-@media only screen and (max-width: 560px) and (min-width: 400px) {}
+@media only screen and (max-width: 560px) and (min-width: 400px) {
+    .ExploreCard {
+        display: flex;
+        flex-direction: column;
+        max-width: 95% !important;
 
-@media only screen and (max-width: 575px) and (min-width: 561px) {}
+        img {
+            width: 100%;
+        }
 
-@media only screen and (max-width: 699px) and (min-width: 576px) {}
+        &-top {
+            margin-top: 20px;
 
-@media only screen and (max-width: 768px) and (min-width: 700px) {}
+            .btn-default {
+                width: 200px !important;
+                padding: 15px 10px;
+            }
+        }
 
-@media only screen and (max-width: 800px) and (min-width: 769px) {}
+        &-title {
+            font-size: 18px;
+        }
+    }
+}
 
-@media only screen and (max-width: 850px) and (min-width: 800px) {}
+@media only screen and (max-width: 575px) and (min-width: 561px) {
+    .ExploreCard {
 
-@media only screen and (max-width: 900px) and (min-width: 850px) {}
+        display: flex;
+        flex-direction: column;
+        max-width: 95% !important;
 
-@media only screen and (max-width: 1580px) and (min-width: 900px) {}
+        img {
+            width: 100%;
+        }
+
+        &-top {
+            margin-top: 20px;
+
+            .btn-default {
+                width: 200px !important;
+                padding: 15px 10px;
+            }
+        }
+
+        &-title {
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 576px) {
+    .ExploreCard {
+        max-width: 95% !important;
+
+        img {
+            width: 45%;
+        }
+
+        &-top {
+            .btn-default {
+                width: 200px !important;
+                padding: 15px 10px;
+            }
+        }
+
+        &-title {
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 700px) {
+    .ExploreCard {
+        // border: 1px solid red;
+
+        img {
+            width: 45%;
+        }
+
+        &-top {
+            .btn-default {
+                width: 200px !important;
+                padding: 15px 10px;
+            }
+        }
+
+        &-title {
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 769px) {
+    .ExploreCard {
+        img {
+            width: 45%;
+        }
+
+        &-top {
+            .btn-default {
+                width: 200px !important;
+                padding: 15px 10px;
+            }
+        }
+
+        &-title {
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+    .ExploreCard {
+
+        img {
+            width: 45%;
+        }
+
+        &-top {
+            .btn-default {
+                width: 200px !important;
+                padding: 15px 10px;
+            }
+        }
+
+        &-title {
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+    .ExploreCard {
+
+        img {
+            width: 40%;
+        }
+
+        &-top {
+            .btn-default {
+                width: 200px !important;
+                padding: 15px 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1580px) and (min-width: 900px) {
+    .ExploreCard {
+
+        img {
+            width: 40%;
+        }
+
+        &-top {
+            .btn-default {
+                width: 200px !important;
+                padding: 15px 0;
+            }
+        }
+    }
+}
