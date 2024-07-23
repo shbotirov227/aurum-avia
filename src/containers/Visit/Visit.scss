@@ -16,6 +16,122 @@
 
 @media only screen and (max-width: 560px) and (min-width: 400px) {
     .Visit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .MainTitle {
+            &-text {
+                width: 85%;
+                text-align: left;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 561px) {
+    .Visit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .MainTitle {
+            &-text {
+                width: 85%;
+                text-align: left;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 576px) {
+    .Visit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .MainTitle {
+            &-text {
+                width: 85%;
+                text-align: left;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 700px) {
+    .Visit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .MainTitle {
+            &-text {
+                width: 85%;
+                text-align: left;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 769px) {
+    .Visit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .MainTitle {
+            &-text {
+                width: 85%;
+                text-align: left;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+    .Visit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .MainTitle {
+            &-text {
+                width: 85%;
+                text-align: left;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+    .Visit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .MainTitle {
+            &-text {
+                width: 85%;
+                text-align: left;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1580px) and (min-width: 900px) {
+    .Visit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         .MainTitle {
             &-text {
                 width: 85%;
