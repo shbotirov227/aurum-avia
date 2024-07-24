@@ -2,6 +2,29 @@
     .VisaSupport {
         width: 100%;
 
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 90% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+
         &-cards {
             width: 100%;
         }
@@ -122,6 +145,31 @@
 }
 
 @media only screen and (max-width: 699px) and (min-width: 576px) {
+    .VisaSupport {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 90% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+
     .swiper {
         .swiper-wrapper {
             margin-bottom: 0;
@@ -135,6 +183,31 @@
 }
 
 @media only screen and (max-width: 768px) and (min-width: 700px) {
+    .VisaSupport {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 90% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+
     .swiper {
         .swiper-wrapper {
             .swiper-slide {
@@ -145,6 +218,32 @@
 }
 
 @media only screen and (max-width: 800px) and (min-width: 769px) {
+    .VisaSupport {
+            .MainTitle {
+                width: 100%;
+                // border: 1px solid red;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+    
+                &-title {
+                    width: 100%;
+                    text-align: center !important;
+                    margin: 0;
+                    // border: 1px solid red;
+                }
+    
+                &-text {
+                    width: 90% !important;
+                    text-align: center !important;
+                    margin: 0;
+                    // border: 1px solid red;
+                }
+            }
+        }
+
+
     .swiper {
         .swiper-wrapper {
             .swiper-slide {
@@ -155,6 +254,31 @@
 }
 
 @media only screen and (max-width: 850px) and (min-width: 800px) {
+    .VisaSupport {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 90% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+
     .swiper {
         .swiper-wrapper {
             .swiper-slide {
@@ -165,6 +289,31 @@
 }
 
 @media only screen and (max-width: 900px) and (min-width: 850px) {
+    .VisaSupport {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 90% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+
     .swiper {
         .swiper-wrapper {
             .swiper-slide {
@@ -175,6 +324,30 @@
 }
 
 @media only screen and (max-width: 1580px) and (min-width: 900px) {
+    .VisaSupport {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+            }
+
+            &-text {
+                width: 90% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+
     .swiper {
         .swiper-wrapper {
             .swiper-slide {

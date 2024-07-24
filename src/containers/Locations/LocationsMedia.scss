@@ -1,17 +1,215 @@
-@media only screen and (max-width: 560px) and (min-width: 400px) {}
+@media only screen and (max-width: 560px) and (min-width: 400px) {
+    .Locations {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
 
-@media only screen and (max-width: 575px) and (min-width: 561px) {}
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
 
-@media only screen and (max-width: 699px) and (min-width: 576px) {}
+            &-text {
+                width: 80% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+}
 
-@media only screen and (max-width: 768px) and (min-width: 700px) {}
+@media only screen and (max-width: 575px) and (min-width: 561px) {
+    .Locations {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
 
-@media only screen and (max-width: 800px) and (min-width: 769px) {}
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
 
-@media only screen and (max-width: 850px) and (min-width: 800px) {}
+            &-text {
+                width: 80% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+}
 
-@media only screen and (max-width: 900px) and (min-width: 850px) {}
+@media only screen and (max-width: 699px) and (min-width: 576px) {
+    .Locations {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 80% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 700px) {
+    .Locations {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 80% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 769px) {
+    .Locations {
+        .MainTitle {
+            width: 100%;
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 80% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+    .Locations {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 80% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+    .Locations {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 80% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
+}
 
 @media only screen and (max-width: 1580px) and (min-width: 900px) {
-    .Locations {}
+    .Locations {
+        .MainTitle {
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
+                width: 100%;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+
+            &-text {
+                width: 80% !important;
+                text-align: center !important;
+                margin: 0;
+                // border: 1px solid red;
+            }
+        }
+    }
 }
