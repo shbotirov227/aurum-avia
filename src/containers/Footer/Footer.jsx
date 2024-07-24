@@ -122,7 +122,8 @@ const Footer = () => {
 						</div>
 						<div class="col-xl-3 col-lg-6 text-center text-lg-right">
 							<div class="copyright-text">
-								<p>Developed by <a target="_blank" rel="noreferrer" href="https://t.me/@shbotirov227">shbotirov</a></p>
+								<p>Developed by <a target="_blank" rel="noreferrer" href="https://t.me/@shbotirov227">shbotirov</a> & </p>
+								<p><a target="_blank" rel="noreferrer" href="https://t.me/@abik1bragim">abik1bragim</a></p>
 							</div>
 						</div>
 					</div>
