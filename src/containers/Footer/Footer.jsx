@@ -48,8 +48,7 @@ const Footer = () => {
 											<img src={Logo} alt="" />
 										</div>
 										<div class="footer-text">
-											<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-												elit,Lorem ipsum dolor sit amet.</p>
+											<p>Biz uchun mijozlarning qulayligi juda muhim. Bizning shior “Sifat foydadan ustun “</p>
 										</div>
 										<div class="footer-social-icon">
 											<span>Follow us</span>
@@ -123,7 +122,8 @@ const Footer = () => {
 						</div>
 						<div class="col-xl-3 col-lg-6 text-center text-lg-right">
 							<div class="copyright-text">
-								<p>Developed by <a target="_blank" rel="noreferrer" href="https://t.me/@shbotirov227">shbotirov</a></p>
+								<p>Developed by <a target="_blank" rel="noreferrer" href="https://t.me/@shbotirov227">shbotirov</a> & </p>
+								<p><a target="_blank" rel="noreferrer" href="https://t.me/@abik1bragim">abik1bragim</a></p>
 							</div>
 						</div>
 					</div>

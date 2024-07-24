@@ -18,7 +18,7 @@
         position: relative !important;
         display: inline-block;
         border-radius: 20px;
-        box-shadow: 5px 10px 25px 0px rgba(0, 0, 0, 0.45);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: #fff;
         padding: 35px 30px;
 
@@ -74,7 +74,7 @@
 
     &-bottom {
         text-align: left;
-        
+
         &-title {
             font-size: 14px;
             font-weight: 600;

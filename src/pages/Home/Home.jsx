@@ -16,9 +16,9 @@ import "./Home";
 
 const Home = () => {
 
-	const [ showButton, setShowButton ] = useState(false);
+	const [showButton, setShowButton] = useState(false);
 
-	function handle () {
+	function handle() {
 		return window.scrollTo({ top: 0, behavior: "smooth" })
 	}
 
@@ -32,7 +32,7 @@ const Home = () => {
 		return () => {
 			window.removeEventListener('scroll', handleScrollButtonVisibility);
 		};
-	},[]);
+	}, []);
 
 	return (
 		<div className="Home">
@@ -50,7 +50,7 @@ const Home = () => {
 			{
 				showButton && (
 					<div className={`scrollToTop`}>
-						<button className="btn-top" onClick={handle}><BiSolidToTop  /></button>
+						<button className="btn-top" onClick={handle}><BiSolidToTop /></button>
 					</div>
 				)
 			}
