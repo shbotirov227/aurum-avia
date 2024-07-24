@@ -61,7 +61,7 @@
         gap: 10px;
 
         &-slide {
-            // border: 1px solid blue;
+
             border-radius: 20px;
             height: 50vw !important;
         }
@@ -69,27 +69,22 @@
 }
 
 .ImageSlider {
-    // border: 1px solid red;
     width: 85% !important;
     gap: 10px;
 
     &-slide {
-        // border: 1px solid blue;
         border-radius: 20px;
-        height: 50vw !important;
+        // height: 50vw !important;
     }
 }
 
 @media only screen and (max-width: 850px) and (min-width: 800px) {
     .ImageSlider {
-        // border: 1px solid red;
         width: 85% !important;
         gap: 10px;
 
         &-slide {
-            // border: 1px solid blue;
             border-radius: 20px;
-            height: 50vw !important;
 
             &.active {
                 flex-grow: 4;
@@ -100,12 +95,10 @@
 
 @media only screen and (max-width: 900px) and (min-width: 850px) {
     .ImageSlider {
-        // border: 1px solid red;
         width: 85% !important;
         gap: 15px;
 
         &-slide {
-            // border: 1px solid blue;
             border-radius: 20px;
             height: 40vw;
         }
@@ -117,9 +110,7 @@
         width: 85% !important;
 
         &-slide {
-            // border: 1px solid blue;
             border-radius: 20px;
-            height: 30vw;
         }
     }
 }
