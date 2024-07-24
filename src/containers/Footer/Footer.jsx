@@ -48,8 +48,7 @@ const Footer = () => {
 											<img src={Logo} alt="" />
 										</div>
 										<div class="footer-text">
-											<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-												elit,Lorem ipsum dolor sit amet.</p>
+											<p>Biz uchun mijozlarning qulayligi juda muhim. Bizning shior “Sifat foydadan ustun “</p>
 										</div>
 										<div class="footer-social-icon">
 											<span>Follow us</span>
