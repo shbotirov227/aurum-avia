@@ -1,15 +1,111 @@
-@media only screen and (max-width: 560px) and (min-width: 400px) {}
+@media only screen and (max-width: 560px) and (min-width: 400px) {
+    .ContactCard {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
-@media only screen and (max-width: 575px) and (min-width: 561px) {}
+@media only screen and (max-width: 575px) and (min-width: 561px) {
+    .ContactCard {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
-@media only screen and (max-width: 699px) and (min-width: 576px) {}
+@media only screen and (max-width: 699px) and (min-width: 576px) {
+    .ContactCard {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
-@media only screen and (max-width: 768px) and (min-width: 700px) {}
+@media only screen and (max-width: 768px) and (min-width: 700px) {
+    .ContactCard {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
-@media only screen and (max-width: 800px) and (min-width: 769px) {}
+@media only screen and (max-width: 800px) and (min-width: 769px) {
+    .ContactCard {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-@media only screen and (max-width: 850px) and (min-width: 800px) {}
+        &-title {
+            font-size: 15px;
+            text-align: center;
+            // border: 1px solid red;
+        }
 
-@media only screen and (max-width: 900px) and (min-width: 850px) {}
+        &-text {
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+    .ContactCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+
+        &-title {
+            font-size: 15px;
+            text-align: center;
+        }
+
+        &-text {
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+    .ContactCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title {
+            font-size: 15px;
+            text-align: center;
+        }
+
+        &-text {
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+}
 
 @media only screen and (max-width: 1580px) and (min-width: 900px) {}
+
+.ContactCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    &-title {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    &-text {
+        font-size: 13px;
+        text-align: center;
+    }
+}

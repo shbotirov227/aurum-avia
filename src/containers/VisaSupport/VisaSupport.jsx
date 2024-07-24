@@ -226,16 +226,16 @@ const VisaSupport = () => {
                         spaceBetween: 240,
                     },
                     700: {
-                        slidesPerView: 1.5,
+                        slidesPerView: 1.2,
                         spaceBetween: 140,
                     },
                     768: {
-                        slidesPerView: 1.5,
-                        spaceBetween: 150,
+                        slidesPerView: 1.3,
+                        spaceBetween: 190,
                     },
                     800: {
                         slidesPerView: 1.5,
-                        spaceBetween: 150,
+                        spaceBetween: 190,
                     },
                     850: {
                         slidesPerView: 1.8,
@@ -266,12 +266,12 @@ const VisaSupport = () => {
                         spaceBetween: 190,
                     },
                     1300: {
-                        slidesPerView: 3,
+                        slidesPerView: 2.8,
                         spaceBetween: 180,
                     },
                     1440: {
                         slidesPerView: 3,
-                        spaceBetween: 250,
+                        spaceBetween: 170,
                     },
                 }}
                 modules={[Autoplay, Pagination, Navigation]}
