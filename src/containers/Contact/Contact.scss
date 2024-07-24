@@ -3,7 +3,44 @@
     align-items: center;
     justify-content: space-evenly;
     position: absolute;
+    transform: translateY(330px);
     left: 0;
     right: 0;
     margin: auto;
+    padding: 20px !important;
+    // border: 1px solid red;
+}
+
+@media only screen and (max-width: 560px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 575px) and (min-width: 561px) {}
+
+@media only screen and (max-width: 699px) and (min-width: 576px) {}
+
+@media only screen and (max-width: 768px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 800px) and (min-width: 769px) {}
+
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+    .Contact {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+    .Contact {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1580px) and (min-width: 900px) {
+    .Contact {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+    }
 }
