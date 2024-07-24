@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Header from "../../containers/Header/Header";
 import Footer from "../../containers/Footer/Footer";
 import HeroSection from "../../containers/HeroSection/HeroSection";
@@ -8,11 +9,10 @@ import Explore from "../../containers/Explore/Explore";
 import Visit from "../../containers/Visit/Visit";
 import Locations from "../../containers/Locations/Locations";
 import FormSection from "../../containers/FormSection/FormSection.jsx";
-// import { GoMoveToTop } from "react-icons/go";
 import { BiSolidToTop  } from "react-icons/bi";
+// import { GoMoveToTop } from "react-icons/go";
 
 import "./Home";
-import { useEffect, useState } from "react";
 
 const Home = () => {
 

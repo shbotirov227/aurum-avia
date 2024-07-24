@@ -184,10 +184,10 @@ const VisaSupport = () => {
                 spaceBetween={250}
                 loop={true}
                 autoplay={{
-                    delay: 300000,
+                    delay: 3000,
                     pauseOnMouseEnter: true,
                 }}
-                pagination={true}
+                // pagination={true}
                 breakpoints={{
                     275: {
                         slidesPerView: 1,
@@ -226,11 +226,11 @@ const VisaSupport = () => {
                         spaceBetween: 240,
                     },
                     700: {
-                        slidesPerView: 1.2,
-                        spaceBetween: 140,
+                        slidesPerView: 1.5,
+                        spaceBetween: 190,
                     },
                     768: {
-                        slidesPerView: 1.3,
+                        slidesPerView: 1.5,
                         spaceBetween: 190,
                     },
                     800: {

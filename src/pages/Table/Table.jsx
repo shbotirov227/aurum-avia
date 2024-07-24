@@ -5,7 +5,7 @@ import "./Table.scss";
 const Table = () => {
     return (
         <div className="Table">
-            
+            <h2>Table</h2>
         </div>
     )
 }

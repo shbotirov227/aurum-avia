@@ -225,9 +225,8 @@ const Prices = () => {
                 slidesPerView={2}
                 spaceBetween={250}
                 loop={true}
-                pagination={true}
                 autoplay={{
-                    delay: 230000,
+                    delay: 3000,
                     pauseOnMouseEnter: false,
                 }}
                 breakpoints={{

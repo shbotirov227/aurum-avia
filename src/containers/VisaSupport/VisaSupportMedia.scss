@@ -4,7 +4,6 @@
 
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -14,14 +13,12 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
 
@@ -30,7 +27,8 @@
         }
 
         .swiper {
-            padding-bottom: 50px;
+            height: 530px !important;
+            padding: 0;
 
             .swiper-wrapper {
                 max-width: 100%;
@@ -47,14 +45,16 @@
 
         .Card {
             width: 100%;
+            min-height: 100% !important;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            margin-bottom: 20px !important;
 
             &-img {
+                width: 70%;
                 img {
-                    width: 310px;
                     height: 200px;
                     border-radius: 15px 15px 0 0;
                     object-fit: cover;
@@ -63,7 +63,6 @@
 
             &-body {
                 border-radius: 0 0 15px 15px;
-                // width: 70%;
                 right: 0;
                 top: 0;
                 padding: 25px 20px;
@@ -85,7 +84,6 @@
                 }
 
                 &-price {
-
                     &-value {
                         font-size: 17px;
                         line-height: 20px;
@@ -100,7 +98,6 @@
             }
 
             &-bottom {
-
                 &-title {
                     font-size: 13px;
                     line-height: 17px;
@@ -122,7 +119,11 @@
                 }
             }
         }
+    }
+}
 
+@media only screen and (max-width: 575px) and (min-width: 561px) {
+    .VisaSupport {
         .Card {
             width: 100%;
             display: flex;
@@ -131,8 +132,8 @@
             flex-direction: column;
     
             &-img {
+                width: 70%;
                 img {
-                    width: 310px;
                     height: 200px;
                     border-radius: 15px 15px 0 0;
                     object-fit: cover;
@@ -200,23 +201,22 @@
                 }
             }
         }
-    }
-}
+        
+        .swiper {
+            height: 665px !important;
+            padding: 0 !important;
+            margin-bottom: 40px;
 
-@media only screen and (max-width: 575px) and (min-width: 561px) {
-    .swiper {
-        padding-bottom: 50px;
-        margin-bottom: 0;
+            .swiper-wrapper {
+                max-width: 100%;
+                margin: 0 auto;
 
-        .swiper-wrapper {
-            max-width: 100%;
-            margin: 0 auto;
-
-            .swiper-slide {
-                text-align: center;
-                max-width: 100% !important;
-                padding: 0 20px;
-                margin: 0 !important;
+                .swiper-slide {
+                    text-align: center;
+                    max-width: 100% !important;
+                    padding: 0 20px;
+                    margin: 0 !important;
+                }
             }
         }
     }
@@ -226,7 +226,6 @@
     .VisaSupport {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -236,19 +235,19 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
     }
 
     .swiper {
+        height: 530px !important;
+        padding: 0 !important;
         .swiper-wrapper {
             margin-bottom: 0;
             height: 50%;
@@ -264,7 +263,6 @@
     .VisaSupport {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -274,19 +272,18 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
     }
 
     .swiper {
+        height: 580px !important;
         .swiper-wrapper {
             .swiper-slide {
                 text-align: center;
@@ -297,32 +294,30 @@
 
 @media only screen and (max-width: 800px) and (min-width: 769px) {
     .VisaSupport {
-            .MainTitle {
+        .MainTitle {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
                 width: 100%;
-                // border: 1px solid red;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-    
-                &-title {
-                    width: 100%;
-                    text-align: center !important;
-                    margin: 0;
-                    // border: 1px solid red;
-                }
-    
-                &-text {
-                    width: 90% !important;
-                    text-align: center !important;
-                    margin: 0;
-                    // border: 1px solid red;
-                }
+                text-align: center !important;
+                margin: 0;
+            }
+
+            &-text {
+                width: 90% !important;
+                text-align: center !important;
+                margin: 0;
             }
         }
-
+    }
 
     .swiper {
+        height: 650px !important;
+
         .swiper-wrapper {
             .swiper-slide {
                 text-align: center;
@@ -335,7 +330,6 @@
     .VisaSupport {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -345,7 +339,6 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
@@ -358,6 +351,7 @@
     }
 
     .swiper {
+        height: 600px !important;
         .swiper-wrapper {
             .swiper-slide {
                 text-align: center;
@@ -370,7 +364,6 @@
     .VisaSupport {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -380,14 +373,12 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
     }
@@ -405,7 +396,6 @@
     .VisaSupport {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -421,7 +411,6 @@
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
     }
