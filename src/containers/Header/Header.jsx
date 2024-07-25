@@ -40,7 +40,7 @@ const Header = () => {
 						</div>
 						<div className="icons">
 							<Link className="overlay-lang" target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987"><FaTelegram /></Link>
-							<Link className="overlay-lang" to="/"><FaSquareInstagram /></Link>
+							<Link className="overlay-lang" target="_blank" rel="noreferrer" to="https://instagram.com/aurum_avia"><FaSquareInstagram /></Link>
 						</div>
 					</ul>
 				</div>
@@ -61,7 +61,7 @@ const Header = () => {
 					<button onClick={e => { changeLang("ru") }} className="Header-lang" to="/">RU</button>
 
 					<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987"><TelegramIcon /></Link>
-					<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://www.instagram.com/aurum_avia/"><InstagramIcon /></Link>
+					<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://instagram.com/aurum_avia"><InstagramIcon /></Link>
 				</div>
 				<button onClick={() => setActive(!active)} className="btn-burger">
 					{active ? <IoClose color="#fff" /> : <IoMenu color="#fff" />}
