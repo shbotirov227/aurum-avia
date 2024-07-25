@@ -53,6 +53,7 @@ const Header = () => {
 					<li><a className="Header-link" href="#about">{t("header.about")}</a></li>
 					<li><a className="Header-link" href="#tours">{t("header.tours")}</a></li>
 					<li><a className="Header-link" href="#contact">{t("header.contact")}</a></li>
+					{/* <li><a className="Header-link" href="/table">{t("header.table")}</a></li> */}
 				</ul>
 
 				<div className="Header-langs">

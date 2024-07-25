@@ -159,7 +159,36 @@
             line-height: 28px;
         }
 
+<<<<<<< HEAD
         .btn-default {
+=======
+@media only screen and (max-width: 699px) and (min-width: 576px) {
+    .HeroInfoCard {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 23px;
+        padding: 15px 25px;
+        gap: 15px;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            justify-content: center !important;
+            margin-top: 10px;
+
+            svg {
+                width: 40px;
+                height: 40px;
+                padding: 7px;
+            }
+        }
+
+        &-title {
+>>>>>>> a1005882cbcad4db84abf0f150e08bfe30916ac8
             font-size: 13px;
             padding: 15px 20px;
             margin-bottom: 0 !important;

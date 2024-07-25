@@ -9,6 +9,7 @@ import Explore from "../../containers/Explore/Explore";
 import Visit from "../../containers/Visit/Visit";
 import Locations from "../../containers/Locations/Locations";
 import FormSection from "../../containers/FormSection/FormSection.jsx";
+import Table2 from "../../containers/Table2/Table2.jsx";
 import { BiSolidToTop  } from "react-icons/bi";
 
 import "./Home";
@@ -44,6 +45,7 @@ const Home = () => {
 			<Locations />
 			<Reservation />
 			<FormSection />
+			<Table2 />
 			<Footer />
 
 			{

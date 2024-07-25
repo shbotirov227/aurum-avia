@@ -1,25 +1,16 @@
 @media only screen and (max-width: 400px) and (min-width: 300px) {
     .HeroSection {
-        &-title {
-            width: 100% !important;
-            display: inline-block !important;
-            font-size: 20px;
-            padding-top: 35px;
-        }
-        
-        &-cityName {
-            font-size: 35px;
-            margin: 10px 0 20px 0;
-        }
-        
-        &-title {
-            font-size: 15px;
-        }
-    }
-}
+        width: 100%;
 
-@media only screen and (max-width: 560px) and (min-width: 400px) {
-    .HeroSection {        
+        &-inner {
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
         &-title {
             width: 100% !important;
             display: inline-block !important;
@@ -67,6 +58,10 @@
             padding-top: 60px;
         }
 
+        .carousel {
+            width: 100%;
+            display: inline-block !important;
+            z-index: 1;
         &-cityName {
             font-size: 43px;
         }

@@ -37,6 +37,19 @@
         &-map {
             width: 90%;
         }
+
+        &-numberName {
+            text-align: center;
+            width: 95%;
+            font-size: 11px;
+        }
+
+        &-number {
+            text-align: center;
+            width: 85% !important;
+            font-size: 10px !important;
+            margin-left: 0 !important;
+        }
     }
 }
 
