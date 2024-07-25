@@ -1,9 +1,15 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import { FaTelegramPlane } from "react-icons/fa";
 import Logo from "../../assets/images/logo2.png"
 
 import "./Footer.scss";
+import { InstagramIcon, TelegramIcon } from "../../assets/icons";
 
 const Footer = () => {
+
+	const handleSubmit = (e) => e.preventDefault();
+	
 	return (
 		<div class="footer-section">
 			<div class="container">
@@ -52,9 +58,8 @@ const Footer = () => {
 										</div>
 										<div class="footer-social-icon">
 											<span>Follow us</span>
-											<a href="/"><i class="fab fa-facebook-f facebook-bg"></i></a>
-											<a href="/"><i class="fab fa-twitter twitter-bg"></i></a>
-											<a href="/"><i class="fab fa-google-plus-g google-bg"></i></a>
+											<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987"><TelegramIcon /></Link>
+											<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://www.instagram.com/aurum_avia/"><InstagramIcon /></Link>
 										</div>
 									</div>
 								</div>
@@ -86,9 +91,9 @@ const Footer = () => {
 											<p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
 										</div>
 										<div class="subscribe-form">
-											<form action="/">
+											<form onSubmit={handleSubmit}>
 												<input type="text" placeholder="Email Address" />
-												<button><i class="fab fa-telegram-plane"></i></button>
+												<button><FaTelegramPlane /></button>
 											</form>
 										</div>
 									</div>
@@ -104,9 +109,9 @@ const Footer = () => {
 			<div class="copyright-area">
 				<div class="container">
 					<div class="row d-flex justify-content-between">
-						<div class="col-xl-6 col-lg-6 text-center text-lg-left">
+						<div class="col-xl-3 col-lg-6 text-center text-lg-left">
 							<div class="copyright-text">
-								<p>Copyright &copy; 2023, All Right Reserved <a href="https://t.me/@adkhamov_987" target="_blank" rel="noreferrer">Aurum Avia</a></p>
+								<p>Copyright &copy; 2023, All Right Reserved <Link target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987">Aurum Avia</Link></p>
 							</div>
 						</div>
 						<div class="col-xl-3 col-lg-6 d-none d-lg-block text-center">
@@ -122,8 +127,7 @@ const Footer = () => {
 						</div>
 						<div class="col-xl-3 col-lg-6 text-center text-lg-right">
 							<div class="copyright-text">
-								<p>Developed by <a target="_blank" rel="noreferrer" href="https://t.me/@shbotirov227">shbotirov</a> & </p>
-								<p><a target="_blank" rel="noreferrer" href="https://t.me/@abik1bragim">abik1bragim</a></p>
+								<p>Developed by <Link target="_blank" rel="noreferrer" to="https://t.me/shbotirov227">shbotirov</Link> & <Link target="_blank" rel="noreferrer" to="https://t.me/abik1bragim">abik1bragim</Link></p>
 							</div>
 						</div>
 					</div>

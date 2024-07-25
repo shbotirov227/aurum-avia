@@ -1,9 +1,8 @@
-@media only screen and (max-width: 560px) and (min-width: 400px) {
+@media only screen and (max-width: 400px) and (min-width: 300px) {
     .Prices {
         width: 100%;
 
         .MainTitle {
-            // border: 1px solid red;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -38,11 +37,49 @@
     }
 }
 
-@media only screen and (max-width: 575px) and (min-width: 561px) {
+@media only screen and (max-width: 560px) and (min-width: 400px) {
+    .Prices {
+        width: 100%;
+
+        .MainTitle {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &-text {
+                width: 85%;
+                text-align: left;
+                margin: 0;
+            }
+        }
+
+        &-cards {
+            width: 100%;
+        }
+
+        .swiper {
+            padding-bottom: 50px;
+            height: 510px;
+            
+            .swiper-wrapper {
+                max-width: 100%;
+                margin: 0 auto;
+                
+                .swiper-slide {
+                    text-align: center;
+                    max-width: 100% !important;
+                    padding: 0 20px;
+                    margin: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 560px) {
     .Prices {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -52,14 +89,12 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
     }
@@ -82,11 +117,10 @@
     }
 }
 
-@media only screen and (max-width: 699px) and (min-width: 576px) {
+@media only screen and (max-width: 700px) and (min-width: 575px) {
     .Prices {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -96,14 +130,12 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
     }
@@ -124,7 +156,6 @@
     .Prices {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -134,14 +165,12 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
     }
@@ -155,11 +184,10 @@
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 769px) {
+@media only screen and (max-width: 800px) and (min-width: 768px) {
     .Prices {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -169,14 +197,12 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
     }
@@ -194,7 +220,6 @@
     .Prices {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -204,14 +229,12 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
     }
@@ -274,14 +297,12 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
 
             &-text {
                 width: 100% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
             }
         }
     }

@@ -1,3 +1,43 @@
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+    .HeroInfoCard {
+        width: 95% !important;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 23px !important;
+        padding: 20px 10px !important;
+        gap: 20px;
+        bottom: 55px;
+
+        &-info {
+            display: flex;
+            justify-content: space-around !important;
+            margin-top: 10px;
+            gap: 10px;
+            // width: 35%;
+
+            svg {
+                width: 35px;
+                height: 35px;
+                padding: 7px;
+                margin-right: 0;
+            }
+        }
+
+        &-title {
+            font-size: 12px;
+        }
+
+        &-value {
+            color: #3B667D;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 28px;
+        }
+    }
+}
+
 @media only screen and (max-width: 560px) and (min-width: 400px) {
     .HeroInfoCard {
         width: 95% !important;
@@ -5,20 +45,66 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        border-radius: 23px;
-        padding: 15px 25px;
+        border-radius: 23px !important;
+        padding: 20px 10px !important;
+        gap: 20px;
+        bottom: 55px;
+
+        &-info {
+            display: flex;
+            justify-content: space-around !important;
+            margin-top: 10px;
+            gap: 10px;
+
+            svg {
+                width: 35px;
+                height: 35px;
+                padding: 7px;
+                margin-right: 0;
+            }
+        }
+
+        &-title {
+            font-size: 12px;
+        }
+
+        &-value {
+            color: #3B667D;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 28px;
+        }
+
+        .btn-default {
+            width: 40%;
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 560px) {
+    .HeroInfoCard {
+        width: 80% !important;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 23px !important;
+        padding: 10px;
+        gap: 25px;
+        bottom: 55px !important;
 
         &-info {
             display: flex;
             align-items: center;
             justify-content: center !important;
             margin-top: 10px;
-            gap: 20px;
 
             svg {
                 width: 40px;
                 height: 40px;
                 padding: 7px;
+                margin-right: 10px;
             }
         }
 
@@ -35,18 +121,17 @@
     }
 }
 
-
-@media only screen and (max-width: 575px) and (min-width: 561px) {
+@media only screen and (max-width: 700px) and (min-width: 575px) {
     .HeroInfoCard {
-        width: 90%;
+        width: 95% !important;
         height: auto;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        border-radius: 23px;
-        padding: 15px 25px;
-        gap: 10px;
+        border-radius: 23px !important;
+        gap: 12px;
+        bottom: 50px;
 
         &-info {
             display: flex;
@@ -58,11 +143,13 @@
                 width: 40px;
                 height: 40px;
                 padding: 7px;
+                margin-right: 10px;
             }
         }
 
         &-title {
             font-size: 13px;
+            margin-bottom: 0;
         }
 
         &-value {
@@ -71,59 +158,28 @@
             font-size: 15px;
             line-height: 28px;
         }
-    }
-}
 
-@media only screen and (max-width: 699px) and (min-width: 576px) {
-    .HeroInfoCard {
-        width: 90%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-        border-radius: 23px;
-        padding: 15px 25px;
-        gap: 15px;
-
-        &-info {
-            display: flex;
-            align-items: center;
-            justify-content: center !important;
-            margin-top: 10px;
-            // border: 1px solid red;
-
-            svg {
-                width: 40px;
-                height: 40px;
-                padding: 7px;
-            }
-        }
-
-        &-title {
+        .btn-default {
             font-size: 13px;
-        }
-
-        &-value {
-            color: #3B667D;
-            font-weight: 700;
-            font-size: 15px;
-            line-height: 28px;
+            padding: 15px 20px;
+            margin-bottom: 0 !important;
         }
     }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 700px) {
     .HeroInfoCard {
-        width: 85%;
+        width: 98% !important;
         height: auto;
         display: flex;
         flex-wrap: wrap;
+        border-radius: 23px !important;
         justify-content: space-around;
         align-items: center;
         border-radius: 23px;
-        padding: 15px 25px;
+        padding: 15px 25px !important;
         gap: 15px;
+        bottom: 80px;
 
         &-info {
             display: flex;
@@ -147,20 +203,28 @@
             font-weight: 700;
             font-size: 15px;
             line-height: 28px;
+        }
+
+        .btn-default {
+            font-size: 13px;
+            padding: 15px 20px;
+            margin-bottom: 0 !important;
         }
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 769px) {
+@media only screen and (max-width: 800px) and (min-width: 768px) {
     .HeroInfoCard {
-        width: 80%;
+        width: 95% !important;
         height: auto;
         display: flex;
         justify-content: space-around;
+        border-radius: 23px !important;
         flex-wrap: wrap;
         border-radius: 23px;
         padding: 15px 25px;
         gap: 10px;
+        bottom: 80px;
 
         &-info {
             display: flex;
@@ -184,18 +248,25 @@
             font-weight: 700;
             font-size: 15px;
             line-height: 28px;
+        }
+
+        .btn-default {
+            font-size: 13px;
+            padding: 15px 20px;
+            margin-bottom: 0 !important;
         }
     }
 }
 
 @media only screen and (max-width: 850px) and (min-width: 800px) {
     .HeroInfoCard {
-        width: 85%;
+        width: 95% !important;
         height: auto;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
+        border-radius: 23px !important;
         border-radius: 23px;
         padding: 15px 25px;
         gap: 18px;
@@ -228,11 +299,12 @@
 
 @media only screen and (max-width: 900px) and (min-width: 850px) {
     .HeroInfoCard {
-        width: 95%;
+        width: 95% !important;
         height: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        border-radius: 23px !important;
         border-radius: 23px;
         padding: 15px 25px;
         gap: 20px;

@@ -1,11 +1,10 @@
-@media only screen and (max-width: 560px) and (min-width: 400px) {
+@media only screen and (max-width: 400px) and (min-width: 300px) {
     .Reservation-box {
         height: 1300px !important;
 
         .Reservation {
             &-title {
                 width: 90%;
-                // border: 1px solid red;
                 font-size: 40px;
             }
 
@@ -17,14 +16,32 @@
     }
 }
 
-@media only screen and (max-width: 575px) and (min-width: 561px) {
+
+@media only screen and (max-width: 560px) and (min-width: 400px) {
+    .Reservation-box {
+        height: 1300px !important;
+
+        .Reservation {
+            &-title {
+                width: 90%;
+                font-size: 40px;
+            }
+
+            &-btn {
+                margin-top: -30px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 560px) {
     .Reservation-box {
         height: 1250px !important;
 
         .Reservation {
             &-title {
                 width: 90%;
-                // border: 1px solid red;
                 font-size: 40px;
             }
 
@@ -36,14 +53,13 @@
     }
 }
 
-@media only screen and (max-width: 699px) and (min-width: 576px) {
+@media only screen and (max-width: 700px) and (min-width: 575px) {
     .Reservation-box {
         height: 1200px !important;
 
         .Reservation {
             &-title {
                 width: 90%;
-                // border: 1px solid red;
                 font-size: 40px;
             }
 
@@ -61,7 +77,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 769px) {
+@media only screen and (max-width: 800px) and (min-width: 768px) {
     .Reservation-box {
         height: 1200px !important;
     }

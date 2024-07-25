@@ -2,11 +2,12 @@
     display: flex;
     width: 90vw;
     gap: 15px;
+    
 
     &-slide {
         flex: 1;
         flex-grow: 0.5;
-        // height: 25vw;
+        height: 25vw;
         border-radius: 30px;
         overflow: hidden;
         cursor: pointer;

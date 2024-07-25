@@ -10,7 +10,6 @@ import Visit from "../../containers/Visit/Visit";
 import Locations from "../../containers/Locations/Locations";
 import FormSection from "../../containers/FormSection/FormSection.jsx";
 import { BiSolidToTop  } from "react-icons/bi";
-// import { GoMoveToTop } from "react-icons/go";
 
 import "./Home";
 

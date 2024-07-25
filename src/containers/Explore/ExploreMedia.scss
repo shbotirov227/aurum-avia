@@ -1,3 +1,29 @@
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+    .Explore {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .MainTitle {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+
+            &-title {
+                font-size: 25px;
+                width: 100%;
+                text-align: start;
+
+            }
+
+            &-text {
+                width: 100% !important;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 560px) and (min-width: 400px) {
     .Explore {
         display: flex;
@@ -24,7 +50,7 @@
     }
 }
 
-@media only screen and (max-width: 575px) and (min-width: 561px) {
+@media only screen and (max-width: 575px) and (min-width: 560px) {
     .Explore {
         display: flex;
         flex-direction: column;
@@ -50,7 +76,7 @@
     }
 }
 
-@media only screen and (max-width: 699px) and (min-width: 576px) {
+@media only screen and (max-width: 700px) and (min-width: 575px) {
     .Explore {
         display: flex;
         flex-direction: column;
@@ -102,7 +128,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 769px) {
+@media only screen and (max-width: 800px) and (min-width: 768px) {
     .Explore {
         display: flex;
         flex-direction: column;

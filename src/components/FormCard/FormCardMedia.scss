@@ -1,3 +1,11 @@
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+    .FormCard {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media only screen and (max-width: 560px) and (min-width: 400px) {
     .FormCard {
         width: 100%;
@@ -6,7 +14,7 @@
     }
 }
 
-@media only screen and (max-width: 575px) and (min-width: 561px) {
+@media only screen and (max-width: 575px) and (min-width: 560px) {
     .FormCard {
         width: 100%;
         display: flex;
@@ -14,7 +22,7 @@
     }
 }
 
-@media only screen and (max-width: 699px) and (min-width: 576px) {
+@media only screen and (max-width: 700px) and (min-width: 575px) {
     .FormCard {
         width: 100%;
         display: flex;
@@ -30,7 +38,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 769px) {
+@media only screen and (max-width: 800px) and (min-width: 768px) {
     .FormCard {
         width: 100%;
         display: flex;
