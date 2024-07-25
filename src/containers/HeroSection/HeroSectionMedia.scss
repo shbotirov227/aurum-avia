@@ -1,12 +1,9 @@
 @media only screen and (max-width: 560px) and (min-width: 400px) {
     .HeroSection {
         width: 100%;
-        // border: 1px solid red;
-
 
         &-inner {
             width: 100% !important;
-            // border: 1px solid gold;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -16,7 +13,6 @@
 
         &-title {
             width: 100% !important;
-            // border: 2px solid red;
             display: inline-block !important;
             font-size: 20px;
         }
@@ -31,7 +27,6 @@
         .carousel {
             width: 100%;
             display: inline-block !important;
-            // border: 2px solid red;
             z-index: 1;
         }
     }

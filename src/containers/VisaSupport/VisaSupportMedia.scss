@@ -4,7 +4,6 @@
 
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -14,14 +13,14 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
         }
 
@@ -148,7 +147,7 @@
     .VisaSupport {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
+
             display: flex;
             align-items: center;
             justify-content: center;
@@ -158,14 +157,14 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
         }
     }
@@ -186,7 +185,7 @@
     .VisaSupport {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
+
             display: flex;
             align-items: center;
             justify-content: center;
@@ -196,14 +195,14 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
         }
     }
@@ -219,29 +218,29 @@
 
 @media only screen and (max-width: 800px) and (min-width: 769px) {
     .VisaSupport {
-            .MainTitle {
+        .MainTitle {
+            width: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &-title {
                 width: 100%;
-                // border: 1px solid red;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-    
-                &-title {
-                    width: 100%;
-                    text-align: center !important;
-                    margin: 0;
-                    // border: 1px solid red;
-                }
-    
-                &-text {
-                    width: 90% !important;
-                    text-align: center !important;
-                    margin: 0;
-                    // border: 1px solid red;
-                }
+                text-align: center !important;
+                margin: 0;
+
+            }
+
+            &-text {
+                width: 90% !important;
+                text-align: center !important;
+                margin: 0;
+
             }
         }
+    }
 
 
     .swiper {
@@ -257,7 +256,7 @@
     .VisaSupport {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
+
             display: flex;
             align-items: center;
             justify-content: center;
@@ -267,14 +266,14 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
         }
     }
@@ -292,7 +291,7 @@
     .VisaSupport {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
+
             display: flex;
             align-items: center;
             justify-content: center;
@@ -302,14 +301,14 @@
                 width: 100%;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
 
             &-text {
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
         }
     }
@@ -327,7 +326,7 @@
     .VisaSupport {
         .MainTitle {
             width: 100%;
-            // border: 1px solid red;
+
             display: flex;
             align-items: center;
             justify-content: center;
@@ -343,7 +342,7 @@
                 width: 90% !important;
                 text-align: center !important;
                 margin: 0;
-                // border: 1px solid red;
+
             }
         }
     }

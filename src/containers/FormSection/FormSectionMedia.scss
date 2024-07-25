@@ -1,10 +1,8 @@
 @media only screen and (max-width: 560px) and (min-width: 400px) {
     .FormSection {
-        // border: 1px solid red;
         padding: 30px 0;
 
         &-inner {
-            // border: 1px solid red;
             display: flex;
             flex-direction: column;
             height: auto;
@@ -18,16 +16,27 @@
         &-map {
             width: 90%;
         }
+
+        &-numberName {
+            text-align: center;
+            width: 95%;
+            font-size: 11px;
+        }
+
+        &-number {
+            text-align: center;
+            width: 85% !important;
+            font-size: 10px !important;
+            margin-left: 0 !important;
+        }
     }
 }
 
 @media only screen and (max-width: 575px) and (min-width: 561px) {
     .FormSection {
-        // border: 1px solid red;
         padding: 30px 0;
 
         &-inner {
-            // border: 1px solid red;
             display: flex;
             flex-direction: column;
             height: auto;
@@ -46,11 +55,9 @@
 
 @media only screen and (max-width: 699px) and (min-width: 576px) {
     .FormSection {
-        // border: 1px solid red;
         padding: 30px 0;
 
         &-inner {
-            // border: 1px solid red;
             display: flex;
             flex-direction: column;
             height: auto;
@@ -69,11 +76,9 @@
 
 @media only screen and (max-width: 768px) and (min-width: 700px) {
     .FormSection {
-        // border: 1px solid red;
         padding: 30px 0;
 
         &-inner {
-            // border: 1px solid red;
             display: flex;
             flex-direction: column;
             height: auto;
@@ -92,11 +97,9 @@
 
 @media only screen and (max-width: 800px) and (min-width: 769px) {
     .FormSection {
-        // border: 1px solid red;
         padding: 30px 0;
 
         &-inner {
-            // border: 1px solid red;
             display: flex;
             flex-direction: column;
             height: auto;
@@ -115,11 +118,9 @@
 
 @media only screen and (max-width: 850px) and (min-width: 800px) {
     .FormSection {
-        // border: 1px solid red;
         padding: 30px 0;
 
         &-inner {
-            // border: 1px solid red;
             display: flex;
             flex-direction: column;
             height: auto;
@@ -138,7 +139,6 @@
 
 @media only screen and (max-width: 900px) and (min-width: 850px) {
     .FormSection {
-        // border: 1px solid red;
         padding: 30px 0;
 
         &-inner {
