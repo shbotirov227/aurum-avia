@@ -151,7 +151,7 @@
         &-title {
             font-size: 25px;
             width: 100% !important;
-            text-align: start !important;
+            text-align: center !important;
         }
 
         &-text {
@@ -170,14 +170,15 @@
 
         &-title {
             font-size: 25px;
-            width: 60%;
-            text-align: start !important;
-
+            width: 100% !important;
+            text-align: center !important;
         }
 
         &-text {
-            width: 50% !important;
+            text-align: center;
+            width: 100% !important;
             font-size: 15px;
+            margin-bottom: 20px !important;
         }
     }
 }

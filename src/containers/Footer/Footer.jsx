@@ -109,7 +109,7 @@ const Footer = () => {
 			<div class="copyright-area">
 				<div class="container">
 					<div class="row d-flex justify-content-between">
-						<div class="col-xl-3 col-lg-6 text-center text-lg-left">
+						<div class="col-xl-3 col-lg-6 text-center text-lg-left mb-sm-4 mb-xs-4">
 							<div class="copyright-text">
 								<p>Copyright &copy; 2023, All Right Reserved <Link target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987">Aurum Avia</Link></p>
 							</div>

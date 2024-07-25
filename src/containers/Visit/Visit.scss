@@ -3,12 +3,11 @@
 
     .MainTitle {
         &-title {
-            text-align: left;
+            text-align: center !important;
         }
 
         &-text {
-            width: 40%;
-            text-align: left;
+            text-align: center !important;
             margin: 0;
         }
     }
@@ -21,32 +20,34 @@
         align-items: center;
 
         .MainTitle {
+            width: 100% !important;
             &-text {
-                width: 85%;
-                text-align: left;
-                margin: 0;
+                // width: 85%;
+                text-align: center !important;
+                margin-bottom: 20px !important;
             }
         }
     }
 }
 
-@media only screen and (max-width: 575px) and (min-width: 561px) {
+@media only screen and (max-width: 575px) and (min-width: 560px) {
     .Visit {
         display: flex;
         flex-direction: column;
         align-items: center;
 
         .MainTitle {
+            text-align: center !important;
             &-text {
-                width: 85%;
-                text-align: left;
-                margin: 0;
+                width: 85% !important;
+                text-align: center !important;
+                margin-bottom: 20px !important;
             }
         }
     }
 }
 
-@media only screen and (max-width: 699px) and (min-width: 576px) {
+@media only screen and (max-width: 700px) and (min-width: 575px) {
     .Visit {
         display: flex;
         flex-direction: column;
@@ -78,17 +79,19 @@
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 769px) {
+@media only screen and (max-width: 800px) and (min-width: 768px) {
     .Visit {
         display: flex;
         flex-direction: column;
         align-items: center;
 
         .MainTitle {
+            text-align: center !important;
+
             &-text {
-                width: 85%;
-                text-align: left;
-                margin: 0;
+                width: 100% !important;
+                text-align: center !important;
+                margin-bottom: 20px;
             }
         }
     }
@@ -101,10 +104,12 @@
         align-items: center;
 
         .MainTitle {
+            text-align: center !important;
+
             &-text {
-                width: 85%;
-                text-align: left;
-                margin: 0;
+                width: 100% !important;
+                text-align: center !important;
+                margin-bottom: 20px;
             }
         }
     }
@@ -117,10 +122,12 @@
         align-items: center;
 
         .MainTitle {
+            text-align: center !important;
+            
             &-text {
-                width: 85%;
-                text-align: left;
-                margin: 0;
+                width: 100% !important;
+                text-align: center !important;
+                margin-bottom: 20px !important;
             }
         }
     }
@@ -128,14 +135,15 @@
 
 @media only screen and (max-width: 1580px) and (min-width: 900px) {
     .Visit {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
 
         .MainTitle {
+            &-title {
+                text-align: left !important;
+            }
+
             &-text {
-                width: 85%;
-                text-align: left;
+                text-align: left !important;
+                width: 60% !important;
                 margin: 0;
             }
         }
