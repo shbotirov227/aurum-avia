@@ -1,11 +1,9 @@
 @media only screen and (max-width: 560px) and (min-width: 400px) {
     .ImageSlider {
-        // border: 1px solid red;
         width: 90% !important;
         gap: 10px;
 
         &-slide {
-            // border: 1px solid blue;
             border-radius: 20px;
             height: 50vw !important;
         }
@@ -14,12 +12,10 @@
 
 @media only screen and (max-width: 575px) and (min-width: 561px) {
     .ImageSlider {
-        // border: 1px solid red;
         width: 90% !important;
         gap: 10px;
 
         &-slide {
-            // border: 1px solid blue;
             border-radius: 20px;
             height: 50vw !important;
         }
@@ -28,12 +24,10 @@
 
 @media only screen and (max-width: 699px) and (min-width: 576px) {
     .ImageSlider {
-        // border: 1px solid red;
         width: 85% !important;
         gap: 10px;
 
         &-slide {
-            // border: 1px solid blue;
             border-radius: 20px;
             height: 50vw !important;
         }
@@ -42,12 +36,10 @@
 
 @media only screen and (max-width: 768px) and (min-width: 700px) {
     .ImageSlider {
-        // border: 1px solid red;
         width: 85% !important;
         gap: 10px;
 
         &-slide {
-            // border: 1px solid blue;
             border-radius: 20px;
             height: 50vw !important;
         }
@@ -56,7 +48,6 @@
 
 @media only screen and (max-width: 800px) and (min-width: 769px) {
     .ImageSlider {
-        // border: 1px solid red;
         width: 85% !important;
         gap: 10px;
 
@@ -68,15 +59,6 @@
     }
 }
 
-.ImageSlider {
-    width: 85% !important;
-    gap: 10px;
-
-    &-slide {
-        border-radius: 20px;
-        // height: 50vw !important;
-    }
-}
 
 @media only screen and (max-width: 850px) and (min-width: 800px) {
     .ImageSlider {
