@@ -13,6 +13,7 @@ import { BiSolidToTop } from "react-icons/bi";
 
 import "./Home";
 import { useEffect, useState } from "react";
+import Table2 from "../../containers/Table2/Table2.jsx";
 
 const Home = () => {
 
@@ -45,6 +46,7 @@ const Home = () => {
 			<Locations />
 			<Reservation />
 			<FormSection />
+			<Table2 />
 			<Footer />
 
 			{

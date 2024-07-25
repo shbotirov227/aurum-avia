@@ -53,6 +53,7 @@ const Header = () => {
 					<li><a className="Header-link" href="#about">{t("header.about")}</a></li>
 					<li><a className="Header-link" href="#tours">{t("header.tours")}</a></li>
 					<li><a className="Header-link" href="#contact">{t("header.contact")}</a></li>
+					{/* <li><a className="Header-link" href="/table">{t("header.table")}</a></li> */}
 				</ul>
 
 				<div className="Header-langs">
@@ -60,8 +61,8 @@ const Header = () => {
 					<button onClick={e => { changeLang("en") }} className="Header-lang" to="/">ENG</button>
 					<button onClick={e => { changeLang("ru") }} className="Header-lang" to="/">RU</button>
 
-					<Link className="Header-lang" to="/"><TelegramIcon /></Link>
-					<Link className="Header-lang" to="/"><InstagramIcon /></Link>
+					<Link className="Header-lang" to="https://t.me/@adkhamov_987"><TelegramIcon /></Link>
+					<Link className="Header-lang" to="https://www.instagram.com/aurum_avia/?utm_source=ig_web_button_share_sheet"><InstagramIcon /></Link>
 				</div>
 				<button onClick={() => setActive(!active)} className="btn-burger">
 					{active ? <IoClose color="#fff" /> : <IoMenu color="#fff" />}

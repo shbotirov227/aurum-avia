@@ -1,3 +1,71 @@
-.Table {
-    
+.flight-table {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+
+        th,
+        td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+    }
+
+    @media (max-width: 768px) {
+        table {
+
+            th,
+            td {
+                padding: 8px;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        table {
+
+            thead,
+            tbody,
+            th,
+            td,
+            tr {
+                display: block;
+            }
+
+            tr {
+                margin-bottom: 10px;
+            }
+
+            th,
+            td {
+                padding: 8px;
+                text-align: right;
+                position: relative;
+
+                &::before {
+                    content: attr(data-label);
+                    position: absolute;
+                    left: 0;
+                    padding-left: 10px;
+                    font-weight: bold;
+                    text-align: left;
+                }
+            }
+
+            th {
+                background: none;
+            }
+        }
+    }
 }
