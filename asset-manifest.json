@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fd31a3d.css",
-    "main.js": "/static/js/main.f957f338.js",
+    "main.css": "/static/css/main.483a79cc.css",
+    "main.js": "/static/js/main.67f2546a.js",
     "static/media/visitCardImg3.jpg": "/static/media/visitCardImg3.f0385d84a19517882e35.jpg",
     "static/media/cardImg14.jpg": "/static/media/cardImg14.b0d610a6740ecae55492.jpg",
     "static/media/exploreCardImg2.jpg": "/static/media/exploreCardImg2.203403babcce53769edf.jpg",
@@ -31,7 +31,6 @@
     "static/media/Poppins-Black.eot": "/static/media/Poppins-Black.225cb4e2e48ff93dc268.eot",
     "static/media/Poppins-Black.ttf": "/static/media/Poppins-Black.511b43f92a41f0af8bcc.ttf",
     "static/media/cardImg10.jpg": "/static/media/cardImg10.e5978effd38f67ee8b5b.jpg",
-    "static/media/logo.png": "/static/media/logo.1a7403cdbed197303ca8.png",
     "static/media/Poppins-Regular.woff": "/static/media/Poppins-Regular.04196e78ff1a51a39da7.woff",
     "static/media/Poppins-Light.woff": "/static/media/Poppins-Light.920af10f4250330f4554.woff",
     "static/media/Poppins-Medium.woff": "/static/media/Poppins-Medium.f8ea198d6244a3457ed2.woff",
@@ -40,16 +39,16 @@
     "static/media/cardImg6.jpg": "/static/media/cardImg6.a1f5398b3c6babd1c61d.jpg",
     "static/media/cardImg3.jpg": "/static/media/cardImg3.f88592a39a7915328131.jpg",
     "static/media/cardImg2.jpg": "/static/media/cardImg2.2f20ae554b0825b7c605.jpg",
-    "static/media/footerBgImg.jpg": "/static/media/footerBgImg.40dd19d500e30da35070.jpg",
     "static/media/cardImg1.jpg": "/static/media/cardImg1.a7023843d4b1088a2b57.jpg",
     "static/media/cardImg4.jpg": "/static/media/cardImg4.1a612eaa14d16bbc4b87.jpg",
+    "static/media/logo2.png": "/static/media/logo2.01fc5954453ab55a6598.png",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.9fd31a3d.css.map": "/static/css/main.9fd31a3d.css.map",
-    "main.f957f338.js.map": "/static/js/main.f957f338.js.map"
+    "main.483a79cc.css.map": "/static/css/main.483a79cc.css.map",
+    "main.67f2546a.js.map": "/static/js/main.67f2546a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fd31a3d.css",
-    "static/js/main.f957f338.js"
+    "static/css/main.483a79cc.css",
+    "static/js/main.67f2546a.js"
   ]
 }
