@@ -9,40 +9,46 @@ import { InstagramIcon, TelegramIcon } from "../../assets/icons";
 const Footer = () => {
 
 	const handleSubmit = (e) => e.preventDefault();
-	
+
 	return (
 		<div className="footer-section">
 			<div className="container">
 				<footer className="footer-section">
 					<div className="container">
 						<div className="footer-cta pt-5 pb-5">
-							<div className="row">
-								<div className="col-xl-4 col-md-4 mb-30">
+							<div className="d-flex justify-content-between text-center row">
+								<div className="col-xl-3 col-md-3 mb-xs-4">
 									<div className="single-cta">
 										<i className="fas fa-map-marker-alt"></i>
 										<div className="cta-text">
-											<h4>Find us</h4>
+											<h4 className="mb-3">Find us</h4>
 											<span>Toshkent shahar, Uchtepa tumani, 14-mavze,1-uy</span>
 										</div>
 									</div>
 								</div>
-								<div className="col-xl-4 col-md-4 mb-30">
+								<div className="col-xl-3 col-md-3 mb-xs-4">
 									<div className="single-cta">
 										<i className="fas fa-phone"></i>
 										<div className="cta-text">
-											<h4>Call us</h4>
-											<span>+99890 987-09-87</span>
+											<h4 className="mb-3">Call us</h4>
+											<span className="mb-0">+99890 987-09-87</span>
 										</div>
 									</div>
 								</div>
-								<div className="col-xl-4 col-md-4 mb-30">
+								<div className="col-xl-3 col-md-3 mb-xs-4">
 									<div className="single-cta">
 										<i className="far fa-envelope-open"></i>
 										<div className="cta-text">
-											<h4>Email us</h4>
+											<h4 className="mb-3">Email us</h4>
 											<span>aurum_avia@gmail.com</span>
 										</div>
 									</div>
+								</div>
+
+								<div className="col-xl-3 col-md-3 footer-social-icon">
+									<span>Follow us</span>
+									<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987"><TelegramIcon /></Link>
+									<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://www.instagram.com/aurum_avia/"><InstagramIcon /></Link>
 								</div>
 							</div>
 						</div>
@@ -56,11 +62,7 @@ const Footer = () => {
 										<div className="footer-text">
 											<p>Biz uchun mijozlarning qulayligi juda muhim. Bizning shior “Sifat foydadan ustun “</p>
 										</div>
-										<div className="footer-social-icon">
-											<span>Follow us</span>
-											<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987"><TelegramIcon /></Link>
-											<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://www.instagram.com/aurum_avia/"><InstagramIcon /></Link>
-										</div>
+
 									</div>
 								</div>
 								<div className="col-xl-4 col-lg-4 col-md-6 mb-30">

@@ -151,10 +151,6 @@
         "destinationex":"Misol. Antalya yoki Dubai yoki shu kabi.",
         "visaex":"Misol. Antalya yoki Dubai yoki shu kabi."
     },
-    "footer":{
-        "h2":"SAYOHAT QILISHNI XOHLAYSIZMI?",
-        "p":"Unda biz bilan hoziroq bog'laning"
-    },
     "best":{
         "h2":"Eng Yaxshi Manzillar",
         "p":"Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
@@ -168,5 +164,28 @@
         "departure": "Ketish",
         "arrival": "Kelish",
         "airline": "Aviakompaniya"
+    },
+    "footer":{
+        "top": {
+            "findus": "Bizning manzil",
+            "callus":"Unda biz bilan hoziroq bog'laning",
+            "emailus": ""
+        },
+        "bottom": {
+            "title": {
+                "1": "Foydali havolalar",
+                "2": "Subscribe"
+            },
+            "text": {
+                "1": "Biz uchun mijozlarning qulayligi juda muhim. Bizning shior “Sifat foydadan ustun “",
+                "2": "Don’t miss to subscribe to our new feeds, kindly fill the form below."
+            },
+            "link": {
+                
+            }
+        },
+        "copyright": {
+
+        }
     }
 }
