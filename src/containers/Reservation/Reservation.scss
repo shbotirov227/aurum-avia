@@ -38,14 +38,28 @@
         }
 
         &-btn {
-            font-size: 14px;
-            font-weight: 500;
+            font-size: 15px;
+            font-weight: 600;
             line-height: 21px;
             letter-spacing: 0.5px;
             color: #135D66;
             padding: 15px 30px;
             background-color: #fff;
             border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all ease-in-out 0.2s;
+
+            svg {
+                width: 25px;
+                height: 25px;
+                margin-left: 15px;
+            }
+
+            &:hover {
+                transform: scale(1.15);
+            }
         }
     }
 }

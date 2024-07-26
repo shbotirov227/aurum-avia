@@ -20,11 +20,7 @@ import "./VisaSupport.scss";
 import "./VisaSupportMedia.scss";
 
 const VisaSupport = () => {
-
-    window.addEventListener("resize", function (event) {
-        console.log(document.body.clientWidth + ' wide by ' + document.body.clientHeight + ' high');
-    })
-
+    
     const { t } = useTranslation();
 
     const data = [
@@ -187,7 +183,6 @@ const VisaSupport = () => {
                     delay: 3000,
                     pauseOnMouseEnter: true,
                 }}
-                // pagination={true}
                 breakpoints={{
                     275: {
                         slidesPerView: 1,

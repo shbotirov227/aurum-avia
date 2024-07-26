@@ -162,5 +162,11 @@
     "formsent":{
         "success":"Muvaffaqiyatli yuborildi",
         "error":"Yuborib bo'lmadi. Iltimos, yana bir bor urinib ko'ring"
+    },
+    "tablo": {
+        "title": "Toshkent aeroportining onlayn tablosi",
+        "departure": "Ketish",
+        "arrival": "Kelish",
+        "airline": "Aviakompaniya"
     }
 }

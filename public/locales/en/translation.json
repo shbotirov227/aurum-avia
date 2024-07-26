@@ -163,5 +163,11 @@
     "formsent":{
         "success":"Sent Successfully",
         "error":"Could not send. Please try again"
+    },
+    "tablo": {
+        "title": "Online table of Tashkent airport",
+        "departure": "Departure",
+        "arrival": "Arrival",
+        "airline": "Airline"
     }
 }

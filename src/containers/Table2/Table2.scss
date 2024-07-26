@@ -9,6 +9,11 @@
         padding: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -21,8 +26,17 @@
                 text-align: left;
             }
 
+            td {
+                width: 30%;
+                padding: 20px;
+            }
+
             th {
                 background-color: #f4f4f4;
+            }
+
+            tr th {
+                text-align: center;
             }
         }
     }

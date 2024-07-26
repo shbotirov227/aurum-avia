@@ -5,6 +5,7 @@ import Contact from "../Contact/Contact";
 
 import "./Reservation.scss";
 import "./ReservationMedia.scss";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Reservation = () => {
 
@@ -16,6 +17,7 @@ const Reservation = () => {
                 <h3 className="Reservation-title">{t("reservation.h2")}</h3>
                 <Link to="https://t.me/adkhamov_987" className="Reservation-btn" target="_blank">
                     {t("button.reservation.1")}
+                    <FaTelegramPlane />
                 </Link>
             </div>
             <Contact />
