@@ -38,6 +38,7 @@ const Home = () => {
 		<div className="Home">
 			<Header />
 			<HeroSection />
+			{/* <Table2 /> */}
 			<Prices />
 			<VisaSupport />
 			<Explore />
@@ -45,7 +46,6 @@ const Home = () => {
 			<Locations />
 			<Reservation />
 			<FormSection />
-			<Table2 />
 			<Footer />
 
 			{

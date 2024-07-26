@@ -10,14 +10,14 @@ const Table2 = () => {
     const USERNAME = 'YOUR_USERNAME';
     const PASSWORD = 'YOUR_PASSWORD';
 
-    // API so'rovining parametrlarini belgilash
-    const airport = 'UTTT'; // Toshkent xalqaro aeroportining ICAO kodi
-    const begin = Math.floor(new Date('2024-07-01T00:00:00').getTime() / 1000); // Unix vaqt
-    const end = Math.floor(new Date('2024-07-01T23:59:59').getTime() / 1000); // Unix vaqt
+    const airport = 'UTTT';
+    const begin = Math.floor(new Date('2024-07-01T00:00:00').getTime() / 1000);
+    const end = Math.floor(new Date('2024-07-01T23:59:59').getTime() / 1000);
 
 
     const { t } = useTranslation();
     const [flights, setFlights] = useState([]);
+
     const API = "https://opensky-network.org/api/flights/arrival?airport=IATA&begin=15&end=20"
 
     useEffect(() => {
@@ -30,7 +30,7 @@ const Table2 = () => {
         //         console.error('API xatosi:', error.message);
         //     });
 
-        axios.get('https://opensky-network.org/api/flights/departure', {
+        axios.get(API, {
             params: {
               airport: airport,
               begin: begin,
