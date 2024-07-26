@@ -17,12 +17,12 @@
             font-size: 20px;
             padding-top: 35px;
         }
-        
+
         &-cityName {
             font-size: 35px;
             margin: 10px 0 20px 0;
         }
-        
+
         &-title {
             font-size: 15px;
         }
@@ -62,12 +62,14 @@
             width: 100%;
             display: inline-block !important;
             z-index: 1;
-        &-cityName {
-            font-size: 43px;
-        }
 
-        &-title {
-            font-size: 18px;
+            &-cityName {
+                font-size: 43px;
+            }
+
+            &-title {
+                font-size: 18px;
+            }
         }
     }
 }
