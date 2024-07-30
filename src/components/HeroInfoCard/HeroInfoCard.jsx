@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { UserIcon, AreaIcon, HomeIcon } from "../../assets/icons";
+import { UserIcon, AreaIcon } from "../../assets/icons";
+import { FaTicketAlt } from "react-icons/fa";
 
 import "./HeroInfoCard.scss";
 import "./HeroInfoCardMedia.scss";
@@ -28,7 +29,7 @@ const HeroInfoCard = ({ title, population, area, price }) => {
             </div>
 
             <div className="HeroInfoCard-info">
-                <HomeIcon />
+                <FaTicketAlt />
                 <div>
                     <h5 className="HeroInfoCard-title">{t('banner3.avgPrice')}</h5>
                     <h5 className="HeroInfoCard-value">{price}</h5>

@@ -35,7 +35,7 @@ const HeroSection = () => {
 							<h3 className="HeroSection-cityName">{t('banner1.h1')}</h3>
 							<a className="btn-default" href="#contact">{t('button.go')}</a>
 						</CCarouselCaption>
-						<HeroInfoCard population="44.48 M" area="275.400 KM2" price="$946.000" />
+						<HeroInfoCard population="44.48 M" area="275.400 KM2" price="$481,77" />
 					</CCarouselItem>
 
 
@@ -51,7 +51,7 @@ const HeroSection = () => {
 							<h3 className="HeroSection-cityName">{t('banner2.h1')}</h3>
 							<a className="btn-default" href="#contact">{t('button.go')}</a>
 						</CCarouselCaption>
-						<HeroInfoCard population="8.66 M" area="41.290 KM2" price="$1.100.200" />
+						<HeroInfoCard population="8.66 M" area="41.290 KM2" price="$492,96" />
 					</CCarouselItem>
 
 					<CCarouselItem>
@@ -66,7 +66,7 @@ const HeroSection = () => {
 							<h3 className="HeroSection-cityName">{t('banner3.h1')}</h3>
 							<a className="btn-default" href="#contact">{t('button.go')}</a>
 						</CCarouselCaption>
-						<HeroInfoCard population="67.41 M" area="551.500 KM2" price="$425.600" />
+						<HeroInfoCard population="67.41 M" area="551.500 KM2" price="$439.43" />
 					</CCarouselItem>
 
 					<CCarouselItem>
@@ -81,7 +81,7 @@ const HeroSection = () => {
 							<h3 className="HeroSection-cityName">{t('banner4.h1')}</h3>
 							<a className="btn-default" href="#contact">{t('button.go')}</a>
 						</CCarouselCaption>
-						<HeroInfoCard population="69.86 M" area="513.120 KM2" price="$165.450" />
+						<HeroInfoCard population="69.86 M" area="513.120 KM2" price="$870.87" />
 					</CCarouselItem>
 
 				</CCarousel>
