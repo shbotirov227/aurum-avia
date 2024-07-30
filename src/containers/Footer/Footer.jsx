@@ -9,7 +9,7 @@ import { InstagramIcon, TelegramIcon } from "../../assets/icons";
 const Footer = () => {
 
 	const handleSubmit = (e) => e.preventDefault();
-	
+
 	return (
 		<div class="footer-section">
 			<div class="container">
@@ -58,7 +58,7 @@ const Footer = () => {
 										</div>
 										<div class="footer-social-icon">
 											<span>Follow us</span>
-											<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987"><TelegramIcon /></Link>
+											<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://t.me/aviakassa_aurum"><TelegramIcon /></Link>
 											<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://www.instagram.com/aurum_avia/"><InstagramIcon /></Link>
 										</div>
 									</div>

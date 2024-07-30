@@ -14,7 +14,7 @@ const Reservation = () => {
             <div className="Reservation" id="contact">
                 <h4 className="Reservation-text">{t("reservation.h4")}</h4>
                 <h3 className="Reservation-title">{t("reservation.h2")}</h3>
-                <Link to="https://t.me/adkhamov_987" className="Reservation-btn" target="_blank">
+                <Link to="https://t.me/aurum_aviakassa" className="Reservation-btn" target="_blank">
                     {t("button.reservation.1")}
                 </Link>
             </div>
