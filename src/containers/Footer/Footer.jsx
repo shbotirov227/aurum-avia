@@ -86,12 +86,6 @@ const Footer = () => {
 										<div className="footer-text">
 											<p>{t("footer.bottom.text.1")}</p>
 										</div>
-
-										<div class="footer-social-icon">
-											<span>Follow us</span>
-											<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://t.me/aviakassa_aurum"><TelegramIcon /></Link>
-											<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://www.instagram.com/aurum_avia/"><InstagramIcon /></Link>
-										</div>
 									</div>
 								</div>
 								<div className="col-xl-4 col-lg-4 col-md-6 mb-30">
