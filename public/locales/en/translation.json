@@ -152,10 +152,6 @@
         "destinationex":"Ex. Antalya or Dubai or etc.",
         "visaex":"Ex. Antalya or Dubai or etc."
     },
-    "footer":{
-        "h2":"ARE YOU LOOKING TO TRAVEL ?",
-        "p":"Make A Reservation By Clicking The Button"
-    },
     "best":{
         "h2":"Best Locations",
         "p":"Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences."
@@ -169,5 +165,42 @@
         "departure": "Departure",
         "arrival": "Arrival",
         "airline": "Airline"
+    },
+    "footer":{
+        "top": {
+            "findus": "Find us",
+            "callus":"Call us",
+            "emailus": "Email us",
+            "followus": "Follow us"
+        },
+        "bottom": {
+            "title": {
+                "1": "Useful Links",
+                "2": "Subscribe"
+            },
+            "text": {
+                "1": "Customer convenience is very important to us. Our motto is “Quality over than profit“",
+                "2": "Don’t miss to subscribe to our new feeds, kindly fill the form below."
+            },
+            "link": {
+                "1": "Home",
+                "2": "Our Services",
+                "3": "About us",
+                "4": "Latest News",
+                "5": "Contact us"
+            },
+            "footerEmail": "Email address"
+        },
+        "copyright": {
+            "title": "Copyright © 2024, All Right Reserved",
+            "dev": "Developed by",
+            "copyLink": {
+                "1": "Home",
+                "2": "Terms",
+                "3": "Privacy",
+                "4": "Policy",
+                "5": "Contact"
+            }
+        }
     }
 }

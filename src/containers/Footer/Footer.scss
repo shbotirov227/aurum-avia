@@ -37,6 +37,8 @@ ul {
 }
 
 .footer-content {
+    display: flex;
+    align-items: flex-start;
     position: relative;
     z-index: 2;
 }
@@ -181,6 +183,7 @@ ul {
 .footer-menu li {
     display: inline-block;
     margin-left: 20px;
+    line-height: 40px;
 }
 
 .footer-menu li:hover a {

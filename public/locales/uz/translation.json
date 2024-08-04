@@ -1,163 +1,163 @@
 {
-    "banner1":{
-        "h2":"Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
-        "h1":"Istanbul",
-        "population":"Aholisi:",
-        "territory":"Hududi:",
-        "avgPrice":"O'rtacha narx:"
+    "banner1": {
+        "h2": "Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
+        "h1": "Istanbul",
+        "population": "Aholisi:",
+        "territory": "Hududi:",
+        "avgPrice": "O'rtacha narx:"
     },
-    "banner2":{
-        "h2":"Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
-        "h1":"Antaliya",
-        "population":"Aholisi:",
-        "territory":"Hududi:",
-        "avgPrice":"O'rtacha narx:"
+    "banner2": {
+        "h2": "Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
+        "h1": "Antaliya",
+        "population": "Aholisi:",
+        "territory": "Hududi:",
+        "avgPrice": "O'rtacha narx:"
     },
-    "banner3":{
-        "h2":"Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
-        "h1":"Dubay",
-        "population":"Aholisi:",
-        "territory":"Hududi:",
-        "avgPrice":"O'rtacha narx:"
+    "banner3": {
+        "h2": "Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
+        "h1": "Dubay",
+        "population": "Aholisi:",
+        "territory": "Hududi:",
+        "avgPrice": "O'rtacha narx:"
     },
-    "banner4":{
-        "h2":"Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
-        "h1":"Sharm al-Shayx",
-        "population":"Aholisi:",
-        "territory":"Hududi:",
-        "avgPrice":"O'rtacha narx:"
+    "banner4": {
+        "h2": "Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
+        "h1": "Sharm al-Shayx",
+        "population": "Aholisi:",
+        "territory": "Hududi:",
+        "avgPrice": "O'rtacha narx:"
     },
-    "header":{
-        "home":"Bosh Sahifa",
-        "about":"Biz Haqimizda",
-        "tours":"Turlar",
-        "contact":"Kontaktlar"
+    "header": {
+        "home": "Bosh Sahifa",
+        "about": "Biz Haqimizda",
+        "tours": "Turlar",
+        "contact": "Kontaktlar"
     },
-    "button":{
-        "explore":"Ko'proq Bilish",
-        "go":"Borishni Xohlaysizmi ?",
-        "reservation":{
-            "1":"Joy Band Qilish",
-            "2":"Band Qilish"
+    "button": {
+        "explore": "Ko'proq Bilish",
+        "go": "Borishni Xohlaysizmi ?",
+        "reservation": {
+            "1": "Joy Band Qilish",
+            "2": "Band Qilish"
         },
-        "discover":"Ko'proq Bilish",
-        "book":"Bog'lanish",
-        "direction":"Qiziqarlimi ?"
+        "discover": "Ko'proq Bilish",
+        "book": "Bog'lanish",
+        "direction": "Qiziqarlimi ?"
     },
-    "weekly":{
-        "h2":"Eng Yaxshi Haftalik Takliflarimiz",
-        "p":"Har bir shaharda faqat siz uchun tuzilgan eng yaxshi haftalik takliflarni kashf eting. O'zingizni sarguzashtlar dunyosida his qiling."
+    "weekly": {
+        "h2": "Eng Yaxshi Haftalik Takliflarimiz",
+        "p": "Har bir shaharda faqat siz uchun tuzilgan eng yaxshi haftalik takliflarni kashf eting. O'zingizni sarguzashtlar dunyosida his qiling."
     },
-    "weeklyCard":{
-        "h5":"Tur o'z ichiga oladi:",
-        "p1":"5 kunlik sayohat, Mehmonxona",
-        "p2":"Aviabilet",
-        "p3":"Eng yaxshi maznillar"
+    "weeklyCard": {
+        "h5": "Tur o'z ichiga oladi:",
+        "p1": "5 kunlik sayohat, Mehmonxona",
+        "p2": "Aviabilet",
+        "p3": "Eng yaxshi maznillar"
     },
-    "visa":{
-        "h2":"Viza olishga yordam beramiz",
-        "p":"Biz sizga oson, tez fursatda va albatta ishonchli viza olishga yordam beramiz."
+    "visa": {
+        "h2": "Viza olishga yordam beramiz",
+        "p": "Biz sizga oson, tez fursatda va albatta ishonchli viza olishga yordam beramiz."
     },
-    "visaCard":{
-        "h5":"Bizning xizmatlar o'z ichiga oladi:",
-        "p1":"Eng arzon narxlar",
-        "p2":"Tezkor ishlash vaqti",
-        "p3":"Ishonchli yordam"
+    "visaCard": {
+        "h5": "Bizning xizmatlar o'z ichiga oladi:",
+        "p1": "Eng arzon narxlar",
+        "p2": "Tezkor ishlash vaqti",
+        "p3": "Ishonchli yordam"
     },
-    "country":{
-        "usa":"AQSH",
-        "england":"Angliya",
-        "canada":"Kanada",
-        "europe":"Yevropa",
-        "kuala":"Kuala Lumpur",
-        "japan":"Yaponiya",
-        "oman":"Oman",
-        "saudia":"Saudia Arabistoni",
-        "india":"Hindiston",
-        "china":"Xitoy",
-        "hong":"Gong Kong"
+    "country": {
+        "usa": "AQSH",
+        "england": "Angliya",
+        "canada": "Kanada",
+        "europe": "Yevropa",
+        "kuala": "Kuala Lumpur",
+        "japan": "Yaponiya",
+        "oman": "Oman",
+        "saudia": "Saudia Arabistoni",
+        "india": "Hindiston",
+        "china": "Xitoy",
+        "hong": "Gong Kong"
     },
-    "checks":{
-        "ins":"Buyurtmalar",
-        "person":"kishi"
+    "checks": {
+        "ins": "Buyurtmalar",
+        "person": "kishi"
     },
-    "destination":{
-        "h2":"Chiptalarni Biz Bilan Arzon Va Oson Toping",
-        "p":"Har bir shaharda eng yaxshi temir yo‘l va aviachipta biletlarini biz bilan toping"
+    "destination": {
+        "h2": "Chiptalarni Biz Bilan Arzon Va Oson Toping",
+        "p": "Har bir shaharda eng yaxshi temir yo‘l va aviachipta biletlarini biz bilan toping"
     },
-    "destinationCard":{
-        "1":{
-            "title":"Temir Yo‘l Biletleri Biz Bilan",
-            "subtitle":"Butun dunyo bo'ylab",
-            "parag":"Temir yo'l orqali biz bilan sarguzashtlarni kashf eting! Baland tog'larni, betakror tabiat manzalarni, qadimiy va navqiron shaharlarni, takrorlanmas landshaflarni biz bilan birga toping. Qiziqarlimi? Biz bilan bog'laning."
+    "destinationCard": {
+        "1": {
+            "title": "Temir Yo‘l Biletleri Biz Bilan",
+            "subtitle": "Butun dunyo bo'ylab",
+            "parag": "Temir yo'l orqali biz bilan sarguzashtlarni kashf eting! Baland tog'larni, betakror tabiat manzalarni, qadimiy va navqiron shaharlarni, takrorlanmas landshaflarni biz bilan birga toping. Qiziqarlimi? Biz bilan bog'laning."
         },
-        "2":{
-            "title":"Aviabiletlar Biz Bilan Arzon",
-            "subtitle":"Jahon bo‘ylab Manzillar",
-            "parag":"Eng arzon, qulay, xavfsiz aviabiletlar biz bilan! Bizga bog'laning, biz sizga eng maqbul bo'ladigan aviabilerni topib beramiz"
+        "2": {
+            "title": "Aviabiletlar Biz Bilan Arzon",
+            "subtitle": "Jahon bo‘ylab Manzillar",
+            "parag": "Eng arzon, qulay, xavfsiz aviabiletlar biz bilan! Bizga bog'laning, biz sizga eng maqbul bo'ladigan aviabilerni topib beramiz"
         }
     },
-    "visit":{
-        "h2":"Shaharlardan Biriga Hoziroq Tashrif Buyuring",
-        "p":"Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
+    "visit": {
+        "h2": "Shaharlardan Biriga Hoziroq Tashrif Buyuring",
+        "p": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
     },
-    "visitCard":{
-        "mil":"mln",
-        "km":"km²",
-        "1":{
-            "subtitle":"Birlashgan Arab Amirliklari",
-            "parag":"Dubay - Birlashgan Arab Amirliklaridagi shahar va amirlik, hashamatli xaridlar, ultramodern arxitektura va jonli tungi hayot sahnasi bilan mashhur. Balandligi 830 m bo'lgan Burj Xalifa minorasi osmono'par binolar bilan to'ldirilgan osmon chizig'ida hukmronlik qiladi. Uning etagida musiqaga xoreografiya qilingan samolyotlar va chiroqlar bilan jihozlangan Dubay favvorasi joylashgan. Sun'iy orollarda Atlantis, Palm, suv va dengiz hayvonlari bog'lari joylashgan kurort joylashgan."
+    "visitCard": {
+        "mil": "mln",
+        "km": "km²",
+        "1": {
+            "subtitle": "Birlashgan Arab Amirliklari",
+            "parag": "Dubay - Birlashgan Arab Amirliklaridagi shahar va amirlik, hashamatli xaridlar, ultramodern arxitektura va jonli tungi hayot sahnasi bilan mashhur. Balandligi 830 m bo'lgan Burj Xalifa minorasi osmono'par binolar bilan to'ldirilgan osmon chizig'ida hukmronlik qiladi. Uning etagida musiqaga xoreografiya qilingan samolyotlar va chiroqlar bilan jihozlangan Dubay favvorasi joylashgan. Sun'iy orollarda Atlantis, Palm, suv va dengiz hayvonlari bog'lari joylashgan kurort joylashgan."
         },
-        "2":{
-            "subtitle":"Turkiya",
-            "parag":"Antaliya Turkiyaning eng tez rivojlanayotgan shahri bo'lib, butun dunyodan kelgan sayyohlar uning ajoyib plyajlari va an'anaviy turk madaniyatining ajoyib aralashmasini kashf qilmoqdalar. Bolalarga Aqua Land (suvli slaydni yaxshi ko'radiganlar orzusi) va Dolphin Land (delfinlar, dengiz sherlari va oq kitlarning uyi) o'rin olgan Beach Park yoqadi. Eski shahar markazini o'rganing va Hadrian darvozasini ko'ring."
+        "2": {
+            "subtitle": "Turkiya",
+            "parag": "Antaliya Turkiyaning eng tez rivojlanayotgan shahri bo'lib, butun dunyodan kelgan sayyohlar uning ajoyib plyajlari va an'anaviy turk madaniyatining ajoyib aralashmasini kashf qilmoqdalar. Bolalarga Aqua Land (suvli slaydni yaxshi ko'radiganlar orzusi) va Dolphin Land (delfinlar, dengiz sherlari va oq kitlarning uyi) o'rin olgan Beach Park yoqadi. Eski shahar markazini o'rganing va Hadrian darvozasini ko'ring."
         },
-        "3":{
-            "subtitle":"Misr",
-            "parag":"Sharm El Sheikh - Sinay yarim orolidagi sayyohlik markazi bo'lib, unda dunyodagi eng yaxshi sho'ng'in joylari mavjud. Sharm shahrini butunlay boshqa darajaga olib chiqqan Ras Muhammad milliy bog'ining suv osti mo''jizalari. Shaharda Qizil dengiz tubidagi parallel dengiz hayotini kashf qilish uchun dunyoning turli burchaklaridan ilg'or va rekreatsion g'avvoslarni jalb qiladigan sho'ng'in va kema halokat joylari mavjud."
+        "3": {
+            "subtitle": "Misr",
+            "parag": "Sharm El Sheikh - Sinay yarim orolidagi sayyohlik markazi bo'lib, unda dunyodagi eng yaxshi sho'ng'in joylari mavjud. Sharm shahrini butunlay boshqa darajaga olib chiqqan Ras Muhammad milliy bog'ining suv osti mo''jizalari. Shaharda Qizil dengiz tubidagi parallel dengiz hayotini kashf qilish uchun dunyoning turli burchaklaridan ilg'or va rekreatsion g'avvoslarni jalb qiladigan sho'ng'in va kema halokat joylari mavjud."
         },
 
-        "4":{
-            "subtitle":"Turkiya",
-            "parag":"Istanbul Turkiyaning eng gavjum shahri va uning madaniy, iqtisodiy va tarixiy markazidir. U Turkiyaning shimoli-g'arbiy qismida joylashgan bo'lib, Marmara va Qora dengizni bog'laydigan Bosfor bo'g'ozi orqali Yevropa va Osiyo tomoniga bo'linadi. Bu ikki qit'ada joylashgan dunyodagi yagona shahar."
+        "4": {
+            "subtitle": "Turkiya",
+            "parag": "Istanbul Turkiyaning eng gavjum shahri va uning madaniy, iqtisodiy va tarixiy markazidir. U Turkiyaning shimoli-g'arbiy qismida joylashgan bo'lib, Marmara va Qora dengizni bog'laydigan Bosfor bo'g'ozi orqali Yevropa va Osiyo tomoniga bo'linadi. Bu ikki qit'ada joylashgan dunyodagi yagona shahar."
         }
     },
-    "reservation":{
-        "h4":"O'zingiz yoqtirganingizni tanlang",
-        "h2":"O'z joyingizni band qiling"
+    "reservation": {
+        "h4": "O'zinggiz yoqtirganingizni tanlang",
+        "h2": "O'z joyingizni band qiling"
     },
-    "info":{
-        "phone":"Telefon raqam",
-        "email":"Bizga email orqali bog'laning",
-        "location":"Ofisimizga tashrif buyuring",
-        "place":"Toshkent shahar, Uchtepa tumani, 14-mavze, 1-uy"
+    "info": {
+        "phone": "Telefon raqam",
+        "email": "Bizga email orqali bog'laning",
+        "location": "Ofisimizga tashrif buyuring",
+        "place": "Toshkent shahar, Uchtepa tumani, 14-mavze, 1-uy"
     },
-    "form":{
-        "h2":{
-            "f":"O'z",
-            "s":"joyingizni",
-            "t":"band",
-            "fo":"qiling"
+    "form": {
+        "h2": {
+            "f": "O'z",
+            "s": "joyingizni",
+            "t": "band",
+            "fo": "qiling"
         },
-        "name":"Ismingiz",
-        "phone":"Telefon raqamingiz",
-        "guests":"Necha kishisiz",
-        "date":"Uchish sanasi",
-        "destination":"Manzilingizni tanlang",
-        "visa":"Visa turini tanlang",
-        "nameex":"Misol. Palonchi Palonchiyev",
-        "phoneex":"Misol. +998 99 999 99 90",
-        "guestsex":"Misol. 3 yoki 4 yoki 5",
-        "destinationex":"Misol. Antalya yoki Dubai yoki shu kabi.",
-        "visaex":"Misol. Antalya yoki Dubai yoki shu kabi."
+        "name": "Ismingiz",
+        "phone": "Telefon raqamingiz",
+        "guests": "Necha kishisiz",
+        "date": "Uchish sanasi",
+        "destination": "Manzilingizni tanlang",
+        "visa": "Visa turini tanlang",
+        "nameex": "Misol. Palonchi Palonchiyev",
+        "phoneex": "Misol. +998 99 999 99 90",
+        "guestsex": "Misol. 3 yoki 4 yoki 5",
+        "destinationex": "Misol. Antalya yoki Dubai yoki shu kabi.",
+        "visaex": "Misol. Antalya yoki Dubai yoki shu kabi."
     },
-    "best":{
-        "h2":"Eng Yaxshi Manzillar",
-        "p":"Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
+    "best": {
+        "h2": "Eng Yaxshi Manzillar",
+        "p": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
     },
-    "formsent":{
-        "success":"Muvaffaqiyatli yuborildi",
-        "error":"Yuborib bo'lmadi. Iltimos, yana bir bor urinib ko'ring"
+    "formsent": {
+        "success": "Muvaffaqiyatli yuborildi",
+        "error": "Yuborib bo'lmadi. Iltimos, yana bir bor urinib ko'ring"
     },
     "tablo": {
         "title": "Toshkent aeroportining onlayn tablosi",
@@ -165,27 +165,41 @@
         "arrival": "Kelish",
         "airline": "Aviakompaniya"
     },
-    "footer":{
+    "footer": {
         "top": {
             "findus": "Bizning manzil",
-            "callus":"Unda biz bilan hoziroq bog'laning",
-            "emailus": ""
+            "callus": "Bizning telefon raqam",
+            "emailus": "Bizning e-mail manzil",
+            "followus": "Bizga obuna bo'ling"
         },
         "bottom": {
             "title": {
                 "1": "Foydali havolalar",
-                "2": "Subscribe"
+                "2": "Obuna boʻling"
             },
             "text": {
-                "1": "Biz uchun mijozlarning qulayligi juda muhim. Bizning shior “Sifat foydadan ustun “",
-                "2": "Don’t miss to subscribe to our new feeds, kindly fill the form below."
+                "1": "Biz uchun mijozlarning qulayligi juda muhim. Bizning shior “Sifat foydadan ustun“",
+                "2": "Bizning yangiliklarni o'tkazib yubormaslik uchun obuna bo'ling"
             },
             "link": {
-                
-            }
+                "1": "Asosiy",
+                "2": "Bizning xizmatlar",
+                "3": "Biz haqimizda",
+                "4": "So'nggi yangiliklar",
+                "5": "Biz bilan bog'lanish"
+            },
+            "footerEmail": "E-pochta manzili"
         },
         "copyright": {
-
+            "title": "Mualliflik huquqi © 2024, Barcha huquqlar himoyalangan",
+            "dev": "tomonidan ishlab chiqilgan",
+            "copyLink": {
+                "1": "Asosiy",
+                "2": "Shartlar",
+                "3": "Maxfiylik",
+                "4": "Siyosat",
+                "5": "Aloqa"
+            }
         }
     }
 }

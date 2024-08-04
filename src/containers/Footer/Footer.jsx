@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { FaTelegramPlane } from "react-icons/fa";
 import Logo from "../../assets/images/logo2.png"
@@ -9,6 +10,28 @@ import { InstagramIcon, TelegramIcon } from "../../assets/icons";
 const Footer = () => {
 
 	const handleSubmit = (e) => e.preventDefault();
+	const { t, i18n } = useTranslation();
+	const [text, setText] = useState("");
+
+	useEffect(() => {
+		if (i18n.language === 'uz') {
+		  setText(
+			<>
+			  <Link target="_blank" rel="noreferrer" to="https://t.me/shbotirov227">shbotirov </Link> & 
+			  <Link target="_blank" rel="noreferrer" to="https://t.me/abik1bragim"> abik1bragim </Link> 
+			  {t("footer.copyright.dev")}
+			</>
+		  );
+		} else {
+		  setText(
+			<>
+			  {t("footer.copyright.dev")} 
+			  <Link target="_blank" rel="noreferrer" to="https://t.me/shbotirov227"> shbotirov </Link> & 
+			  <Link target="_blank" rel="noreferrer" to="https://t.me/abik1bragim"> abik1bragim </Link>
+			</>
+		  );
+		}
+	  }, [i18n.language, t]);
 
 	return (
 		<div className="footer-section">
@@ -21,7 +44,7 @@ const Footer = () => {
 									<div className="single-cta">
 										<i className="fas fa-map-marker-alt"></i>
 										<div className="cta-text">
-											<h4 className="mb-3">Find us</h4>
+											<h4 className="mb-3">{t("footer.top.findus")}</h4>
 											<span>Toshkent shahar, Uchtepa tumani, 14-mavze,1-uy</span>
 										</div>
 									</div>
@@ -30,7 +53,7 @@ const Footer = () => {
 									<div className="single-cta">
 										<i className="fas fa-phone"></i>
 										<div className="cta-text">
-											<h4 className="mb-3">Call us</h4>
+											<h4 className="mb-3">{t("footer.top.callus")}</h4>
 											<span className="mb-0">+99890 987-09-87</span>
 										</div>
 									</div>
@@ -39,14 +62,14 @@ const Footer = () => {
 									<div className="single-cta">
 										<i className="far fa-envelope-open"></i>
 										<div className="cta-text">
-											<h4 className="mb-3">Email us</h4>
+											<h4 className="mb-3">{t("footer.top.emailus")}</h4>
 											<span>aurum_avia@gmail.com</span>
 										</div>
 									</div>
 								</div>
 
 								<div className="col-xl-3 col-md-3 footer-social-icon">
-									<span>Follow us</span>
+									<span>{t("footer.top.followus")}</span>
 									<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987"><TelegramIcon /></Link>
 									<Link className="Header-lang" target="_blank" rel="noreferrer" to="https://www.instagram.com/aurum_avia/"><InstagramIcon /></Link>
 								</div>
@@ -60,7 +83,7 @@ const Footer = () => {
 											<img src={Logo} alt="" />
 										</div>
 										<div className="footer-text">
-											<p>Biz uchun mijozlarning qulayligi juda muhim. Bizning shior “Sifat foydadan ustun “</p>
+											<p>{t("footer.bottom.text.1")}</p>
 										</div>
 
 									</div>
@@ -68,33 +91,28 @@ const Footer = () => {
 								<div className="col-xl-4 col-lg-4 col-md-6 mb-30">
 									<div className="footer-widget">
 										<div className="footer-widget-heading">
-											<h3>Useful Links</h3>
+											<h3>{t("footer.bottom.title.1")}</h3>
 										</div>
 										<ul>
-											<li><a href="/">Home</a></li>
-											<li><a href="/">about</a></li>
-											<li><a href="/">services</a></li>
-											<li><a href="/">portfolio</a></li>
-											<li><a href="/">Contact</a></li>
-											<li><a href="/">About us</a></li>
-											<li><a href="/">Our Services</a></li>
-											<li><a href="/">Expert Team</a></li>
-											<li><a href="/">Contact us</a></li>
-											<li><a href="/">Latest News</a></li>
+											<li><a href="/">{t("footer.bottom.link.1")}</a></li>
+											<li><a href="/">{t("footer.bottom.link.2")}</a></li>
+											<li><a href="/">{t("footer.bottom.link.3")}</a></li>
+											<li><a href="/">{t("footer.bottom.link.4")}</a></li>
+											<li><a href="/">{t("footer.bottom.link.5")}</a></li>
 										</ul>
 									</div>
 								</div>
 								<div className="col-xl-4 col-lg-4 col-md-6 mb-50">
 									<div className="footer-widget">
 										<div className="footer-widget-heading">
-											<h3>Subscribe</h3>
+											<h3>{t("footer.bottom.title.2")}</h3>
 										</div>
 										<div className="footer-text mb-25">
-											<p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+											<p>{t("footer.bottom.text.2")}</p>
 										</div>
 										<div className="subscribe-form">
 											<form onSubmit={handleSubmit}>
-												<input type="text" placeholder="Email Address" />
+												<input type="text" placeholder={t("footer.bottom.footerEmail")} />
 												<button><FaTelegramPlane /></button>
 											</form>
 										</div>
@@ -113,23 +131,23 @@ const Footer = () => {
 					<div className="row d-flex justify-content-between">
 						<div className="col-xl-3 col-lg-6 text-center text-lg-left mb-sm-4 mb-xs-4">
 							<div className="copyright-text">
-								<p>Copyright &copy; 2023, All Right Reserved <Link target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987">Aurum Avia</Link></p>
+								<p>{t("footer.copyright.title")} <Link target="_blank" rel="noreferrer" to="https://t.me/adkhamov_987">Aurum Avia</Link></p>
 							</div>
 						</div>
 						<div className="col-xl-3 col-lg-6 d-none d-lg-block text-center">
 							<div className="footer-menu">
 								<ul>
-									<li><a href="/">Home</a></li>
-									<li><a href="/">Terms</a></li>
-									<li><a href="/">Privacy</a></li>
-									<li><a href="/">Policy</a></li>
-									<li><a href="/">Contact</a></li>
+									<li><a href="/">{t("footer.copyright.copyLink.1")}</a></li>
+									<li><a href="/">{t("footer.copyright.copyLink.2")}</a></li>
+									<li><a href="/">{t("footer.copyright.copyLink.3")}</a></li>
+									<li><a href="/">{t("footer.copyright.copyLink.4")}</a></li>
+									<li><a href="/">{t("footer.copyright.copyLink.5")}</a></li>
 								</ul>
 							</div>
 						</div>
 						<div className="col-xl-3 col-lg-6 text-center text-lg-right">
 							<div className="copyright-text">
-								<p>Developed by <Link target="_blank" rel="noreferrer" to="https://t.me/shbotirov227">shbotirov</Link> & <Link target="_blank" rel="noreferrer" to="https://t.me/abik1bragim">abik1bragim</Link></p>
+								<p>{text}</p>
 							</div>
 						</div>
 					</div>
