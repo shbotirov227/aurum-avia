@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./pages/Home/Home";
 import { Analytics } from "@vercel/analytics/react"
-import EzmobAds from "./components/EzmobAds";
+// import EzmobAds from "./components/EzmobAds";
 
 import "./assets/index.scss";
 
@@ -10,7 +10,7 @@ function App() {
 		<div className="App">
 			<Home />
             <Analytics />
-            <EzmobAds />
+            {/* <EzmobAds /> */}
 		</div>
 	);
 }
